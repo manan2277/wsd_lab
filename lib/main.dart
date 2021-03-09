@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: Text('Work Systems Lab'),
+            title: Text('Work Lab'),
             centerTitle: true,
             backgroundColor: Colors.lightGreenAccent[700],
           ),
