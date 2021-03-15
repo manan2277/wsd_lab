@@ -9,7 +9,7 @@ void main() => runApp(MaterialApp(
           ),
           body: Center(
             child: Text(
-              "Caution! Work in Progress\n",
+              "Caution! Work in Progress\nLogo color hex code:8cc63f",
               style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
