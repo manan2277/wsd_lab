@@ -3,9 +3,9 @@ import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-void main()=>runApp(MaterialApp(
-  home:Home(),
-));
+void main() => runApp(MaterialApp(
+      home: Home(),
+    ));
 
 class Home extends StatelessWidget {
   @override
@@ -15,17 +15,15 @@ class Home extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-              image:AssetImage('Images/homepage.jpg'),
-              fit:BoxFit.contain
-          ),
+              image: AssetImage('Images/homepage.jpg'), fit: BoxFit.contain),
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Next",
-          style: TextStyle(
-              fontSize: 15),
+        child: Text(
+          "Next",
+          style: TextStyle(fontSize: 15),
         ),
-        backgroundColor: Colors.lightGreen,
+        backgroundColor: Colors.blueGrey,
         onPressed: () {
           Navigator.push(
             context,
@@ -36,13 +34,15 @@ class Home extends StatelessWidget {
     );
   }
 }
+
 class SubPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen ,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
-        title: Text('Experiments',
+        title: Text(
+          'Experiments',
           style: TextStyle(
             color: Colors.white,
             fontSize: 30,
@@ -51,108 +51,121 @@ class SubPage extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.lightGreen,
       ),
-      body:Container(
-        //color: Colors.lightGreen,
-        child:Column(
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage('Images/homepage.jpg'), fit: BoxFit.cover),
+        ),
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             FlatButton(
-              onPressed: (){
+              onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => Prelim()),
-                );},
-              child: Text("Preliminary Understanding of Principle of Method Study",
-                style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white
-                ),),
-              color: Colors.lightGreen,
+                );
+              },
+              child: Text(
+                "Preliminary Understanding of Principle of Method Study",
+                style: TextStyle(fontSize: 15, color: Colors.white),
+              ),
+              color: Colors.blueGrey,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Measure()),
-              );},
-              child: Text("Measurement and Analysis of Ergonomic variables",
-                style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white
-                ),),
-              color: Colors.lightGreen,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Measure()),
+                );
+              },
+              child: Text(
+                "Measurement and Analysis of Ergonomic variables",
+                style: TextStyle(fontSize: 15, color: Colors.white),
+              ),
+              color: Colors.blueGrey,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Recovery()),
-              );},
-              child: Text("Measurement and analysis of  Work and Recovery cycle for the jobs simulated",
-                style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white
-                ),),
-              color: Colors.lightGreen,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Recovery()),
+                );
+              },
+              child: Text(
+                "Measurement and analysis of  Work and Recovery cycle for the jobs simulated",
+                style: TextStyle(fontSize: 15, color: Colors.white),
+              ),
+              color: Colors.blueGrey,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Weight()),
-              );},
-              child: Text("Weight Lifting Task Experiment",
-                style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white
-                ),),
-              color: Colors.lightGreen,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Weight()),
+                );
+              },
+              child: Text(
+                "Weight Lifting Task Experiment",
+                style: TextStyle(fontSize: 15, color: Colors.white),
+              ),
+              color: Colors.blueGrey,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Time()),
-              );},
-              child: Text("Time Study of Assembly and Machining Jobs",
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Time()),
+                );
+              },
+              child: Text(
+                "Time Study of Assembly and Machining Jobs",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 15,
-                ),),
-              color: Colors.lightGreen,
+                ),
+              ),
+              color: Colors.blueGrey,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Bell()),
-              );},
-              child: Text("Bell Assembly Experiment",
-                style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white
-                ),),
-              color: Colors.lightGreen,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Bell()),
+                );
+              },
+              child: Text(
+                "Bell Assembly Experiment",
+                style: TextStyle(fontSize: 15, color: Colors.white),
+              ),
+              color: Colors.blueGrey,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Lightning()),
-              );},
-              child: Text("Lightning Arrangement – Visibility Measurement",
-                style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white
-                ),),
-              color: Colors.lightGreen,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Lightning()),
+                );
+              },
+              child: Text(
+                "Lightning Arrangement – Visibility Measurement",
+                style: TextStyle(fontSize: 15, color: Colors.white),
+              ),
+              color: Colors.blueGrey,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Rating()),
-              );},
-              child: Text("Rating Film exercises",
-                style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white
-                ),),
-              color: Colors.lightGreen,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Rating()),
+                );
+              },
+              child: Text(
+                "Rating Film exercises",
+                style: TextStyle(fontSize: 15, color: Colors.white),
+              ),
+              color: Colors.blueGrey,
             ),
             /*FlatButton(
               onPressed: (){ Navigator.push(
@@ -166,13 +179,16 @@ class SubPage extends StatelessWidget {
               color: Colors.lightGreen,
             ),*/
           ],
-        ),),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.white,
-          ),),
-        backgroundColor: Colors.lightGreen,
+          ),
+        ),
+        backgroundColor: Colors.blueGrey,
         onPressed: () {
           Navigator.pop(context);
         },
@@ -180,13 +196,15 @@ class SubPage extends StatelessWidget {
     );
   }
 }
+
 class Prelim extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen ,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
-        title: Text('Preliminary Understanding of Principle of Method Study',
+        title: Text(
+          'Preliminary Understanding of Principle of Method Study',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
@@ -196,10 +214,12 @@ class Prelim extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.white,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.pop(context);
@@ -208,13 +228,15 @@ class Prelim extends StatelessWidget {
     );
   }
 }
+
 class Measure extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen ,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
-        title: Text('Measurement and Analysis of Ergonomic Variables',
+        title: Text(
+          'Measurement and Analysis of Ergonomic Variables',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
@@ -224,10 +246,12 @@ class Measure extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.white,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.pop(context);
@@ -236,13 +260,15 @@ class Measure extends StatelessWidget {
     );
   }
 }
+
 class Recovery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen ,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
-        title: Text('Measurement and Analysis of Work and Recovery cycles for Jobs',
+        title: Text(
+          'Measurement and Analysis of Work and Recovery cycles for Jobs',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
@@ -252,10 +278,12 @@ class Recovery extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.white,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.pop(context);
@@ -264,13 +292,15 @@ class Recovery extends StatelessWidget {
     );
   }
 }
+
 class Weight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen ,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
-        title: Text('Weight lifting task experiment',
+        title: Text(
+          'Weight lifting task experiment',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
@@ -280,10 +310,12 @@ class Weight extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.white,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.pop(context);
@@ -292,13 +324,15 @@ class Weight extends StatelessWidget {
     );
   }
 }
+
 class Time extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen ,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
-        title: Text('Time study of Assembly and Machining Jobs',
+        title: Text(
+          'Time study of Assembly and Machining Jobs',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
@@ -308,10 +342,12 @@ class Time extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.white,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.pop(context);
@@ -320,13 +356,15 @@ class Time extends StatelessWidget {
     );
   }
 }
+
 class Lightning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen ,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
-        title: Text('Lightning Arrangement - Visibility Measurement',
+        title: Text(
+          'Lightning Arrangement - Visibility Measurement',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
@@ -336,10 +374,12 @@ class Lightning extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.white,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.pop(context);
@@ -348,13 +388,15 @@ class Lightning extends StatelessWidget {
     );
   }
 }
+
 class Rating extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen ,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
-        title: Text('Rating Film Exercises',
+        title: Text(
+          'Rating Film Exercises',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
@@ -364,10 +406,12 @@ class Rating extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.white,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.pop(context);
@@ -376,13 +420,15 @@ class Rating extends StatelessWidget {
     );
   }
 }
+
 class Bell extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen ,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
-        title: Text('Bell Assembly Experiment',
+        title: Text(
+          'Bell Assembly Experiment',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
@@ -392,10 +438,12 @@ class Bell extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.white,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.pop(context);
