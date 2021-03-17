@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
           "Next",
           style: TextStyle(fontSize: 15),
         ),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.push(
             context,
@@ -53,8 +53,11 @@ class SubPage extends StatelessWidget {
       ),
       body: Container(
         decoration: BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage('Images/homepage.jpg'), fit: BoxFit.cover),
+        image:  DecorationImage(
+      fit: BoxFit.cover,
+           // alignment: Alignment.center,
+              image: AssetImage('Images/homepage.jpg'),
+    ),
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
