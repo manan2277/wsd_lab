@@ -58,7 +58,7 @@ class SubPage extends StatelessWidget {
           image: new DecorationImage(
             //  alignment: Alignment.center,
             fit: BoxFit.contain,
-            colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.5), BlendMode.dstATop),
+            colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.3), BlendMode.dstATop),
             alignment: Alignment.center,
             image:AssetImage('Images/homepage.jpg'),
           ),
