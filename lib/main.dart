@@ -52,12 +52,16 @@ class SubPage extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       body: Container(
+        alignment: AlignmentDirectional.bottomStart,
         decoration: BoxDecoration(
-        image:  DecorationImage(
-      fit: BoxFit.cover,
-           // alignment: Alignment.center,
-              image: AssetImage('Images/homepage.jpg'),
-    ),
+          color: Colors.lightGreen,
+          image: new DecorationImage(
+            //  alignment: Alignment.center,
+            fit: BoxFit.contain,
+            colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.5), BlendMode.dstATop),
+            alignment: Alignment.center,
+            image:AssetImage('Images/homepage.jpg'),
+          ),
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -74,7 +78,7 @@ class SubPage extends StatelessWidget {
                 "Preliminary Understanding of Principle of Method Study",
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
-              color: Colors.blueGrey,
+              color: Colors.lightGreen,
             ),
             FlatButton(
               onPressed: () {
@@ -87,7 +91,7 @@ class SubPage extends StatelessWidget {
                 "Measurement and Analysis of Ergonomic variables",
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
-              color: Colors.blueGrey,
+              color: Colors.lightGreen,
             ),
             FlatButton(
               onPressed: () {
@@ -100,7 +104,7 @@ class SubPage extends StatelessWidget {
                 "Measurement and analysis of  Work and Recovery cycle for the jobs simulated",
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
-              color: Colors.blueGrey,
+              color: Colors.lightGreen,
             ),
             FlatButton(
               onPressed: () {
@@ -113,7 +117,7 @@ class SubPage extends StatelessWidget {
                 "Weight Lifting Task Experiment",
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
-              color: Colors.blueGrey,
+              color: Colors.lightGreen,
             ),
             FlatButton(
               onPressed: () {
@@ -129,7 +133,7 @@ class SubPage extends StatelessWidget {
                   fontSize: 15,
                 ),
               ),
-              color: Colors.blueGrey,
+              color: Colors.lightGreen,
             ),
             FlatButton(
               onPressed: () {
@@ -142,7 +146,7 @@ class SubPage extends StatelessWidget {
                 "Bell Assembly Experiment",
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
-              color: Colors.blueGrey,
+              color: Colors.lightGreen,
             ),
             FlatButton(
               onPressed: () {
@@ -155,7 +159,7 @@ class SubPage extends StatelessWidget {
                 "Lightning Arrangement – Visibility Measurement",
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
-              color: Colors.blueGrey,
+              color: Colors.lightGreen,
             ),
             FlatButton(
               onPressed: () {
@@ -168,7 +172,7 @@ class SubPage extends StatelessWidget {
                 "Rating Film exercises",
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
-              color: Colors.blueGrey,
+              color: Colors.lightGreen,
             ),
             /*FlatButton(
               onPressed: (){ Navigator.push(
@@ -191,7 +195,7 @@ class SubPage extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.lightGreen,
         onPressed: () {
           Navigator.pop(context);
         },
