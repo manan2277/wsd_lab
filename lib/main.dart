@@ -174,17 +174,18 @@ class SubPage extends StatelessWidget {
               ),
               color: Colors.lightGreen,
             ),
-            /*FlatButton(
+            FlatButton(
               onPressed: (){ Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => ()),
+                MaterialPageRoute(builder: (context) => Anthro()),
               );},
-              child: Text("hsdjdsfk",
+              child: Text("Anthropometry: Measuring and analyzing data for the group of subjects in  different postures",
                 style: TextStyle(
-                    color: Colors.white
+                    color: Colors.white,
+                        fontSize:15,
                 ),),
               color: Colors.lightGreen,
-            ),*/
+            ),
           ],
         ),
       ),
@@ -219,6 +220,20 @@ class Prelim extends StatelessWidget {
         ),
         //centerTitle: true,
         backgroundColor: Colors.lightGreen,
+      ),
+      body: Container(
+        child: Text("Objective: \n\n"
+    "(i)  To suggest a number of methods of doing a job under study.​\n(ii) To compare between these methods on the basis of selected criteria.\n​(iii)To find out the best and the most appropriate method of doing a job under study.​\n"
+         "\n Material Required:\n​\nStop Watch, Pen Assembly, 3 Pin Plug, Socket Assembly, Bicycle Pedal, Pin board Assembly"
+          "\n\nOperation:​\n\n1. The parts should be disassembled.​\n2. The parts should be placed in the workbench and numbered.​\n3. The use of both hands, left hand or right hand should be applied for different assembly flow diagram.​\n4. The time taken to assemble the parts should be noted down.​\n5. The experiment should be repeated 5 times each for all the assembly.",
+          style: TextStyle(
+          fontSize: 20,
+          color: Colors.white,
+        ),),
+        /*decoration: BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage('Images/homepage.jpg'), fit: BoxFit.contain),
+        ),*/
       ),
       floatingActionButton: FloatingActionButton(
         child: Text(
@@ -436,6 +451,37 @@ class Bell extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Bell Assembly Experiment',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 25,
+          ),
+        ),
+        //centerTitle: true,
+        backgroundColor: Colors.lightGreen,
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Text(
+          "Back",
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
+        backgroundColor: Colors.lightGreen,
+        onPressed: () {
+          Navigator.pop(context);
+        },
+      ),
+    );
+  }
+}
+class Anthro extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.lightGreen,
+      appBar: AppBar(
+        title: Text(
+          'Anthropometry: Measuring and analyzing data for the group of subjects in  different postures',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
