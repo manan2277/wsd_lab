@@ -1,4 +1,3 @@
-import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -222,18 +221,32 @@ class Prelim extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       body: Container(
-        child: Text("Objective: \n\n"
-    "(i)  To suggest a number of methods of doing a job under study.​\n(ii) To compare between these methods on the basis of selected criteria.\n​(iii)To find out the best and the most appropriate method of doing a job under study.​\n"
-         "\n Material Required:\n​\nStop Watch, Pen Assembly, 3 Pin Plug, Socket Assembly, Bicycle Pedal, Pin board Assembly"
-          "\n\nOperation:​\n\n1. The parts should be disassembled.​\n2. The parts should be placed in the workbench and numbered.​\n3. The use of both hands, left hand or right hand should be applied for different assembly flow diagram.​\n4. The time taken to assemble the parts should be noted down.​\n5. The experiment should be repeated 5 times each for all the assembly.",
-          style: TextStyle(
-          fontSize: 20,
-          color: Colors.white,
-        ),),
-        /*decoration: BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage('Images/homepage.jpg'), fit: BoxFit.contain),
-        ),*/
+        child: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              new Container(
+                child:Text("Objective: \n\n"
+          "(i) To suggest a number of methods of doing a job under study.​\n(ii) To compare between these methods on the basis of selected criteria.\n​(iii)To find out the best and the most appropriate method of doing a job under study.​\n"
+          "\n Material Required:\n​\nStop Watch, Pen Assembly, 3 Pin Plug, Socket Assembly, Bicycle Pedal, Pin board Assembly"
+            "\n\nOperation:​\n\n1. The parts should be disassembled.​\n2. The parts should be placed in the workbench and numbered.​\n3. The use of both hands, left hand or right hand should be applied for different assembly flow diagram.​\n4. The time taken to assemble the parts should be noted down.​\n5. The experiment should be repeated 5 times each for all the assembly.\n\n",
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.white,
+            ),),
+
+              ),
+
+              new Image.asset('Images/3pina.jpg'),
+              new Image.asset('Images/3pinb.jpg'),
+
+            ]
+
+          /*decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage('Images/homepage.jpg'), fit: BoxFit.contain),
+          ),*/
+          ,),
+        )
       ),
       floatingActionButton: FloatingActionButton(
         child: Text(
@@ -248,6 +261,7 @@ class Prelim extends StatelessWidget {
         },
       ),
     );
+
   }
 }
 
