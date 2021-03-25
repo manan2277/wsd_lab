@@ -255,26 +255,34 @@ class Measure extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreen,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
           'Measurement and Analysis of Ergonomic Variables',
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.blue,
             fontSize: 25,
           ),
         ),
         //centerTitle: true,
-        backgroundColor: Colors.lightGreen,
+        backgroundColor: Colors.white,
+      ),
+      body: Container(
+        child: Text("Objectives: \n\n1. To measure the speed of a subject’s hand and finger movement (efficiency)\n2. To test the movement and muscular coordination of the body of the subject.​\n3. To measure the learning rate of the subject.​\n\nEquipments Required:\n\nPin board pins (30), Pin board, Stop watch, Fatigue tester​"
+          "\n\nOperation:​\n\n 1. Conduct and record the fatigue test at the start of experiment.​\n 2. Record the time taken to insert the pin in first two row.​\n3. Record 30 readings.​\n4. Conduct and record the fatigue test at the end of the experiment.",
+          style: TextStyle(
+          fontSize: 20,
+          color: Colors.indigo,
+        ),),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.blue,
           ),
         ),
-        backgroundColor: Colors.lightGreen,
+        backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
         },
