@@ -222,7 +222,8 @@ class Prelim extends StatelessWidget {
       ),
       body: Container(
         child: SingleChildScrollView(
-          child: Column(
+          child:Column (
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               new Container(
                 child:Text("Objective: \n\n"
@@ -233,11 +234,15 @@ class Prelim extends StatelessWidget {
               fontSize: 20,
               color: Colors.white,
             ),),
-
               ),
-
-              new Image.asset('Images/3pina.jpg'),
-              new Image.asset('Images/3pinb.jpg'),
+              new Image.asset('Images/3pina.jpg',
+              width: 1000,
+              height: 500,),
+             // alignment: Alignment.center,),
+              new Image.asset('Images/3pinb.jpg',
+                width: 1000,
+                height: 500,),
+             //   alignment: Alignment.center,),
 
             ],),
         )
