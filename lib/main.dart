@@ -51,7 +51,7 @@ class SubPage extends StatelessWidget {
         backgroundColor: Colors.lightGreen,
       ),
       body: Container(
-       /* alignment: AlignmentDirectional.bottomStart,
+        alignment: AlignmentDirectional.bottomStart,
         decoration: BoxDecoration(
           color: Colors.lightGreen,
           image: new DecorationImage(
@@ -61,7 +61,7 @@ class SubPage extends StatelessWidget {
             alignment: Alignment.center,
             image:AssetImage('Images/homepage.jpg'),
           ),
-        ),*/
+        ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -244,7 +244,13 @@ class Prelim extends StatelessWidget {
                 height: 500,),
              //   alignment: Alignment.center,),
 
-            ],),
+            ]
+
+          /*decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage('Images/homepage.jpg'), fit: BoxFit.contain),
+          ),*/
+          ,),
         )
       ),
       floatingActionButton: FloatingActionButton(
