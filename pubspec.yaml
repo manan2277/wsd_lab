@@ -50,7 +50,51 @@ flutter:
     - Images/3pina.jpg
     - Images/3pinb.jpg
     - Images/i1e1.jpg
-
+    - Images/i2e1.jpg
+    - Images/i3e1.jpg
+    - Images/i4e1.jpg
+    - Images/i5e1.jpg
+    - Images/i6e1.jpg
+    - Images/i7e1.jpg
+    - Images/i8e1.jpg
+    - Images/i1e2.jpg
+    - Images/i2e2.jpg
+    - Images/i3e2.jpg
+    - Images/i4e2.jpg
+    - Images/i5e2.jpg
+    - Images/i6e2.jpg
+    - Images/i7e2.jpg
+    - Images/i1e3.jpg
+    - Images/i2e3.jpg
+    - Images/i3e3.jpg
+    - Images/i4e3.jpg
+    - Images/i1e4.jpg
+    - Images/i2e4.jpg
+    - Images/i3e4.jpg
+    - Images/i4e4.jpg
+    - Images/i5e4.jpg
+    - Images/i6e4.jpg
+    - Images/i7e4.jpg
+    - Images/i1e6.jpg
+    - Images/i2e6.jpg
+    - Images/i3e6.jpg
+    - Images/i4e6.jpg
+    - Images/i5e6.jpg
+    - Images/i6e6.jpg
+    - Images/i1e8.jpg
+    - Images/i2e8.jpg
+    - Images/i3e8.jpg
+    - Images/i4e8.jpg
+    - Images/i5e8.jpg
+    - Images/i6e8.jpg
+    - Images/i7e8.jpg
+    - Images/i8e8.jpg
+    - Images/i9e8.jpg
+    - Images/i1e9.jpg
+    - Images/i2e9.jpg
+    - Images/i3e9.jpg
+    - Images/i4e9.jpg
+    - Images/i5e9.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
