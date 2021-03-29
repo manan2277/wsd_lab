@@ -292,9 +292,63 @@ class Measure extends StatelessWidget {
             fontSize: 25,
           ),
         ),
-        //centerTitle: true,
         backgroundColor: Colors.white,
       ),
+      body:Container(
+        child:SingleChildScrollView(
+          child:Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              //default color
+              new Text(
+                '\nObjectives',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "\n 1. To measure the speed of a subject’s hand and finger movement (efficiency).\n2. To test the movement and muscular coordination of the body of the subject.​\n3. To measure the learning rate of the subject.​",
+                style: TextStyle(
+                  //inbuilt named colors
+                  color: Colors.blue,
+                  fontSize: 20,
+                ),
+              ),
+              new Text(
+                '\nMaterials required\n',
+                style: TextStyle(
+                  //using ARGB (Alpha Red Green Blue)
+                  color: Colors.indigo,
+                  fontSize: 20,
+                ),
+              ),
+              new Text("Pin board pins (30), Pin board, Stop watch, Fatigue tester​",
+                style: TextStyle(
+                  //using RGBO (Red Green Blue Opacity)
+                  color: Colors.blue,
+                  fontSize: 20,
+                ),
+              ),
+              new Text("\nOperations",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text("\n1. Conduct and record the fatigue test at the start of experiment.\n2. Record the time taken to insert the pin in first two row.​\n3. Record 30 readings.​\n4. Conduct and record the fatigue test at the end of the experiment.​​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Image.asset('images/3pina.jpg',
+                  width: 1000,
+                  height:500),
+              new Image.asset('images/3pinb.jpg',
+                  width: 1000,
+                  height:500),
+            ],
+          ),),),
       floatingActionButton: FloatingActionButton(
         child: Text("Back",
           style: TextStyle(
