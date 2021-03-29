@@ -213,90 +213,60 @@ class Prelim extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       body:Container(
-        child: SingleChildScrollView(
-        child: Column(
-          children: <Widget>[
-            new Container(
-              child:Text("Objective: \n\n"
-                  "(i) To suggest a number of methods of doing a job under study.​\n(ii) To compare between these methods on the basis of selected criteria.\n​(iii)To find out the best and the most appropriate method of doing a job under study.​\n"
-                  "\n Material Required:\n​\nStop Watch, Pen Assembly, 3 Pin Plug, Socket Assembly, Bicycle Pedal, Pin board Assembly"
-                  "\n\nOperation:​\n\n1. The parts should be disassembled.​\n2. The parts should be placed in the workbench and numbered.​\n3. The use of both hands, left hand or right hand should be applied for different assembly flow diagram.​\n4. The time taken to assemble the parts should be noted down.​\n5. The experiment should be repeated 5 times each for all the assembly.\n\n",
+        child:SingleChildScrollView(
+          child:Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              //default color
+              new Text(
+                '\nObjectives',
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.white,
-                ),),),
-        new Image.asset('Images/3pina.jpg'),
-            new Image.asset('Images/3pinb.jpg'),
-          ],
-        ),
-      )
-      ),
-      /*Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          //default color
-          new Text(
-            '\nObjectives',
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.indigo,
-            ),
-          ),
-          new Text(
-            "\n(i)  To suggest a number of methods of doing a job under study.​\n(ii) To compare between these methods on the basis of selected criteria.\n​(iii)To find out the best and the most appropriate method of doing a job under study.​\n",
-            style: TextStyle(
-              //inbuilt named colors
-              color: Colors.blue,
-              fontSize: 20,
-            ),
-          ),
-          new Text(
-            'Materials required',
-            style: TextStyle(
-              //using ARGB (Alpha Red Green Blue)
-              color: Colors.indigo,
-              fontSize: 20,
-            ),
-          ),
-          new Text("\nStop Watch, Pen Assembly, 3 Pin Plug, Socket Assembly, Bicycle Pedal, Pin board Assembly",
-            style: TextStyle(
-              //using RGBO (Red Green Blue Opacity)
-              color: Colors.blue,
-              fontSize: 20,
-            ),
-          ),
-          new Text("\nOperations\n",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.indigo,
-            ),),
-          new Text("1. The parts should be disassembled.​\n2. The parts should be placed in the workbench and numbered.​\n3. The use of both hands, left hand or right hand should be applied for different assembly flow diagram.​\n4. The time taken to assemble the parts should be noted down.​\n5. The experiment should be repeated 5 times each for all the assembly.",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.blue,
-            ),),
-        ],
-      ),
-      ),
-              new Image.asset('Images/3pina.jpg',
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "\n(i)  To suggest a number of methods of doing a job under study.​\n(ii) To compare between these methods on the basis of selected criteria.\n​(iii)To find out the best and the most appropriate method of doing a job under study.​\n",
+                style: TextStyle(
+                  //inbuilt named colors
+                  color: Colors.blue,
+                  fontSize: 20,
+                ),
+              ),
+              new Text(
+                '\nMaterials required',
+                style: TextStyle(
+                  //using ARGB (Alpha Red Green Blue)
+                  color: Colors.indigo,
+                  fontSize: 20,
+                ),
+              ),
+              new Text("\nStop Watch, Pen Assembly, 3 Pin Plug, Socket Assembly, Bicycle Pedal, Pin board Assembly",
+                style: TextStyle(
+                  //using RGBO (Red Green Blue Opacity)
+                  color: Colors.blue,
+                  fontSize: 20,
+                ),
+              ),
+              new Text("\nOperations\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text("1. The parts should be disassembled.​\n2. The parts should be placed in the workbench and numbered.​\n3. The use of both hands, left hand or right hand should be applied for different assembly flow diagram.​\n4. The time taken to assemble the parts should be noted down.​\n5. The experiment should be repeated 5 times each for all the assembly.\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Image.asset('images/3pina.jpg',
               width: 1000,
-              height: 500,),
-             // alignment: Alignment.center,),
-              new Image.asset('Images/3pinb.jpg',
-                width: 1000,
-                height: 500,),
-             //   alignment: Alignment.center,),
-
-            ]
-
-          /*decoration: BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage('Images/homepage.jpg'), fit: BoxFit.contain),
-          ),*/
-          ,),
-        )
-      ),*/
+              height:500),
+              new Image.asset('images/3pinb.jpg',
+                  width: 1000,
+                  height:500),
+            ],
+          ),),),
       floatingActionButton: FloatingActionButton(
         child: Text("Back",
           style: TextStyle(
