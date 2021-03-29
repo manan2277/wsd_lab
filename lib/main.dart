@@ -52,10 +52,15 @@ class SubPage extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.white,
       ),
+
       body:Container(
         alignment: AlignmentDirectional.bottomStart,
         /*decoration: BoxDecoration(
           color: Colors.white,
+      body: Container(
+        alignment: AlignmentDirectional.bottomStart,
+        decoration: BoxDecoration(
+          color: Colors.lightGreen,
           image: new DecorationImage(
           //  alignment: Alignment.center,
              fit: BoxFit.contain,
@@ -64,7 +69,7 @@ class SubPage extends StatelessWidget {
               image:AssetImage('images/homepage2.jpg'),
           ),
         ),*/
-        child:Column(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
@@ -222,7 +227,8 @@ class Prelim extends StatelessWidget {
                 ),),),
         new Image.asset('Images/3pina.jpg'),
             new Image.asset('Images/3pinb.jpg'),
-          ],),
+          ],
+        ),
       )
       ),
       /*Column(
@@ -271,6 +277,25 @@ class Prelim extends StatelessWidget {
               color: Colors.blue,
             ),),
         ],
+      ),
+      ),
+              new Image.asset('Images/3pina.jpg',
+              width: 1000,
+              height: 500,),
+             // alignment: Alignment.center,),
+              new Image.asset('Images/3pinb.jpg',
+                width: 1000,
+                height: 500,),
+             //   alignment: Alignment.center,),
+
+            ]
+
+          /*decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage('Images/homepage.jpg'), fit: BoxFit.contain),
+          ),*/
+          ,),
+        )
       ),*/
       floatingActionButton: FloatingActionButton(
         child: Text("Back",
