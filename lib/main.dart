@@ -3,9 +3,9 @@ import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-void main()=>runApp(MaterialApp(
-  home:Home(),
-));
+void main() => runApp(MaterialApp(
+      home: Home(),
+    ));
 
 class Home extends StatelessWidget {
   @override
@@ -15,16 +15,15 @@ class Home extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image:AssetImage('Images/homepage2.jpg'),
-            fit:BoxFit.contain,
+            image: AssetImage('Images/homepage2.jpg'),
+            fit: BoxFit.contain,
           ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Next",
-          style: TextStyle(
-              color: Colors.indigo,
-              fontSize: 15),
+        child: Text(
+          "Next",
+          style: TextStyle(color: Colors.indigo, fontSize: 15),
         ),
         backgroundColor: Colors.white,
         onPressed: () {
@@ -37,13 +36,15 @@ class Home extends StatelessWidget {
     );
   }
 }
+
 class SubPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white ,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Experiments',
+        title: Text(
+          'Experiments',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 30,
@@ -52,8 +53,7 @@ class SubPage extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.white,
       ),
-
-      body:Container(
+      body: Container(
         alignment: AlignmentDirectional.bottomStart,
         /*decoration: BoxDecoration(
           color: Colors.white,
@@ -74,121 +74,135 @@ class SubPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             FlatButton(
-              onPressed: (){
+              onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => Prelim()),
-                );},
-              child: Text("Preliminary Understanding of Principle of Method Study",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.blue
-                ),),
+                );
+              },
+              child: Text(
+                "Preliminary Understanding of Principle of Method Study",
+                style: TextStyle(fontSize: 20, color: Colors.blue),
+              ),
               color: Colors.white,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Measure()),
-              );},
-              child: Text("Measurement and Analysis of Ergonomic variables",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.blue
-                ),),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Measure()),
+                );
+              },
+              child: Text(
+                "Measurement and Analysis of Ergonomic variables",
+                style: TextStyle(fontSize: 20, color: Colors.blue),
+              ),
               color: Colors.white,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Recovery()),
-              );},
-              child: Text("Measurement and analysis of  Work and Recovery cycle for the jobs simulated",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.blue
-                ),),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Recovery()),
+                );
+              },
+              child: Text(
+                "Measurement and analysis of  Work and Recovery cycle for the jobs simulated",
+                style: TextStyle(fontSize: 20, color: Colors.blue),
+              ),
               color: Colors.white,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Weight()),
-              );},
-              child: Text("Weight Lifting Task Experiment",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.blue
-                ),),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Weight()),
+                );
+              },
+              child: Text(
+                "Weight Lifting Task Experiment",
+                style: TextStyle(fontSize: 20, color: Colors.blue),
+              ),
               color: Colors.white,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Time()),
-              );},
-              child: Text("Time Study of Assembly and Machining Jobs",
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Time()),
+                );
+              },
+              child: Text(
+                "Time Study of Assembly and Machining Jobs",
                 style: TextStyle(
                   color: Colors.blue,
                   fontSize: 20,
-                ),),
+                ),
+              ),
               color: Colors.white,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Bell()),
-              );},
-              child: Text("Bell Assembly Experiment",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.blue
-                ),),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Bell()),
+                );
+              },
+              child: Text(
+                "Bell Assembly Experiment",
+                style: TextStyle(fontSize: 20, color: Colors.blue),
+              ),
               color: Colors.white,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Lightning()),
-              );},
-              child: Text("Lightning Arrangement – Visibility Measurement",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.blue
-                ),),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Lightning()),
+                );
+              },
+              child: Text(
+                "Lightning Arrangement – Visibility Measurement",
+                style: TextStyle(fontSize: 20, color: Colors.blue),
+              ),
               color: Colors.white,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Rating()),
-              );},
-              child: Text("Rating Film exercises",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.blue
-                ),),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Rating()),
+                );
+              },
+              child: Text(
+                "Rating Film exercises",
+                style: TextStyle(fontSize: 20, color: Colors.blue),
+              ),
               color: Colors.white,
             ),
             FlatButton(
-              onPressed: (){ Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Anthro()),
-              );},
-              child: Text("Anthropometry: Measuring and analyzing data for the group of subjects in  different postures",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.blue
-                ),),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Anthro()),
+                );
+              },
+              child: Text(
+                "Anthropometry: Measuring and analyzing data for the group of subjects in  different postures",
+                style: TextStyle(fontSize: 20, color: Colors.blue),
+              ),
               color: Colors.white,
             ),
           ],
-        ),),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
@@ -197,13 +211,15 @@ class SubPage extends StatelessWidget {
     );
   }
 }
+
 class Prelim extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white ,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Preliminary Understanding of Principle of Method Study',
+        title: Text(
+          'Preliminary Understanding of Principle of Method Study',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 25,
@@ -212,9 +228,9 @@ class Prelim extends StatelessWidget {
         //centerTitle: true,
         backgroundColor: Colors.white,
       ),
-      body:Container(
-        child:SingleChildScrollView(
-          child:Column(
+      body: Container(
+        child: SingleChildScrollView(
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
@@ -242,36 +258,49 @@ class Prelim extends StatelessWidget {
                   fontSize: 20,
                 ),
               ),
-              new Text("\nStop Watch, Pen Assembly, 3 Pin Plug, Socket Assembly, Bicycle Pedal, Pin board Assembly",
+              new Text(
+                "\nStop Watch, Pen Assembly, 3 Pin Plug, Socket Assembly, Bicycle Pedal, Pin board Assembly",
                 style: TextStyle(
                   //using RGBO (Red Green Blue Opacity)
                   color: Colors.blue,
                   fontSize: 20,
                 ),
               ),
-              new Text("\nOperations\n",
+              new Text(
+                "\nOperations\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
-              new Text("1. The parts should be disassembled.​\n2. The parts should be placed in the workbench and numbered.​\n3. The use of both hands, left hand or right hand should be applied for different assembly flow diagram.​\n4. The time taken to assemble the parts should be noted down.​\n5. The experiment should be repeated 5 times each for all the assembly.\n",
+                ),
+              ),
+              new Text(
+                "1. The parts should be disassembled.​\n2. The parts should be placed in the workbench and numbered.​\n3. The use of both hands, left hand or right hand should be applied for different assembly flow diagram.​\n4. The time taken to assemble the parts should be noted down.​\n5. The experiment should be repeated 5 times each for all the assembly.\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
-              new Image.asset('images/3pina.jpg',
-              width: 1000,
-              height:500),
-              new Image.asset('images/3pinb.jpg',
-                  width: 1000,
-                  height:500),
+                ),
+              ),
+              new Image.asset('images/3pina.jpg', width: 1000, height: 500),
+              new Image.asset('images/3pinb.jpg', width: 1000, height: 500),
+              new Text(
+                "Work Bench diagram of ​Bicycle Pedal.​\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Image.asset('Images/i1e1.jpg', width: 1000, height: 500),
             ],
-          ),),),
+          ),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
@@ -280,13 +309,15 @@ class Prelim extends StatelessWidget {
     );
   }
 }
+
 class Measure extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white ,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Measurement and Analysis of Ergonomic Variables',
+        title: Text(
+          'Measurement and Analysis of Ergonomic Variables',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 25,
@@ -294,9 +325,9 @@ class Measure extends StatelessWidget {
         ),
         backgroundColor: Colors.white,
       ),
-      body:Container(
-        child:SingleChildScrollView(
-          child:Column(
+      body: Container(
+        child: SingleChildScrollView(
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
@@ -324,36 +355,41 @@ class Measure extends StatelessWidget {
                   fontSize: 20,
                 ),
               ),
-              new Text("Pin board pins (30), Pin board, Stop watch, Fatigue tester​",
+              new Text(
+                "Pin board pins (30), Pin board, Stop watch, Fatigue tester​",
                 style: TextStyle(
                   //using RGBO (Red Green Blue Opacity)
                   color: Colors.blue,
                   fontSize: 20,
                 ),
               ),
-              new Text("\nOperations",
+              new Text(
+                "\nOperations",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
-              new Text("\n1. Conduct and record the fatigue test at the start of experiment.\n2. Record the time taken to insert the pin in first two row.​\n3. Record 30 readings.​\n4. Conduct and record the fatigue test at the end of the experiment.​​",
+                ),
+              ),
+              new Text(
+                "\n1. Conduct and record the fatigue test at the start of experiment.\n2. Record the time taken to insert the pin in first two row.​\n3. Record 30 readings.​\n4. Conduct and record the fatigue test at the end of the experiment.​​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
-              new Image.asset('images/3pina.jpg',
-                  width: 1000,
-                  height:500),
-              new Image.asset('images/3pinb.jpg',
-                  width: 1000,
-                  height:500),
+                ),
+              ),
+              new Image.asset('images/3pina.jpg', width: 1000, height: 500),
+              new Image.asset('images/3pinb.jpg', width: 1000, height: 500),
             ],
-          ),),),
+          ),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
@@ -362,13 +398,15 @@ class Measure extends StatelessWidget {
     );
   }
 }
+
 class Recovery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white ,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Measurement and Analysis of Work and Recovery cycles for Jobs',
+        title: Text(
+          'Measurement and Analysis of Work and Recovery cycles for Jobs',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 25,
@@ -378,10 +416,12 @@ class Recovery extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
@@ -390,13 +430,15 @@ class Recovery extends StatelessWidget {
     );
   }
 }
+
 class Weight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white ,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Weight lifting task experiment',
+        title: Text(
+          'Weight lifting task experiment',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 25,
@@ -406,10 +448,12 @@ class Weight extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
@@ -418,13 +462,15 @@ class Weight extends StatelessWidget {
     );
   }
 }
+
 class Time extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white ,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Time study of Assembly and Machining Jobs',
+        title: Text(
+          'Time study of Assembly and Machining Jobs',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 25,
@@ -434,10 +480,12 @@ class Time extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
@@ -446,13 +494,15 @@ class Time extends StatelessWidget {
     );
   }
 }
+
 class Lightning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white ,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Lightning Arrangement - Visibility Measurement',
+        title: Text(
+          'Lightning Arrangement - Visibility Measurement',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 25,
@@ -462,10 +512,12 @@ class Lightning extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
@@ -474,13 +526,15 @@ class Lightning extends StatelessWidget {
     );
   }
 }
+
 class Rating extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Rating Film Exercises',
+        title: Text(
+          'Rating Film Exercises',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 25,
@@ -490,10 +544,12 @@ class Rating extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
@@ -502,13 +558,15 @@ class Rating extends StatelessWidget {
     );
   }
 }
+
 class Bell extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white ,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Bell Assembly Experiment',
+        title: Text(
+          'Bell Assembly Experiment',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 25,
@@ -518,10 +576,12 @@ class Bell extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
@@ -530,13 +590,15 @@ class Bell extends StatelessWidget {
     );
   }
 }
+
 class Anthro extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white ,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Anthropometry: Measuring and analyzing data for the group of subjects in  different postures',
+        title: Text(
+          'Anthropometry: Measuring and analyzing data for the group of subjects in  different postures',
           style: TextStyle(
             color: Colors.indigo,
             fontSize: 25,
@@ -546,10 +608,12 @@ class Anthro extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Back",
+        child: Text(
+          "Back",
           style: TextStyle(
             color: Colors.indigo,
-          ),),
+          ),
+        ),
         backgroundColor: Colors.white,
         onPressed: () {
           Navigator.pop(context);
