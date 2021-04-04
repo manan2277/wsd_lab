@@ -1366,7 +1366,7 @@ class _StartPageState extends State<StartPage> {
 
   List qList = [
     Questions(
-        "1. Class C fires involve energized\n    electrical equipment.", true),
+        "1. Class C fires involve energized\n    electrical equipment.", false),
     Questions(
         "2. The wet chemical extinguisher is a  \n    specialized type primarily focused \n    on class K fires.",
         true),
