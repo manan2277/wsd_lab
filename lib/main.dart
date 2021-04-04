@@ -633,6 +633,27 @@ class Measure extends StatelessWidget {
                 ),
               ),
               new Image.asset('Images/i9e2.jpg', width: 1000, height: 500),
+              new Text(
+                "The aim of these experimentns is to measure and analyse the ergonimic variables and quantify them to determine how good or how bad a potential subject can be chosen for a particular kind of work, as an employee. Ergonomics is the scientific discipline concerned with the understanding of the interactions among human and other elements of a system, and the proffesion that applies theory, principles, data and methods to deisgn in order to optimize human well- being and overall system performance.\n\n In the lab we had discussions about 6 such experimentss from which we collected data and analysed it to measure the ergonomic performance of a subject. The list of experiments deala with a list of different ergonomic factors:\n (i) Match board assembly: To measure the hand- finger movement and muscular coordination\n (ii) Threading tester: For the same purpose as above,\n (iii) Coordination tester: Hand eye coordination for specific job and change in eye fatigue level\n (iv) Cord binding tester: to measure the hand-finger movement and muscular coordination\n (v) Depth perception test: depth perception test wrt to specified arrangements.\n (vi) Bolt stand test: Hand and finger coordination and to test movement and muscular coorination tester.\n\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "Basically in these tests we are actually looking over two thingS: (i) muscular coordination, hand finger coordination (ii) depth perception and checking visual capabilities. We basically test the muscular coordination and try to quantify and analyse that to test if a potential subject is fit to be employed for a particualr job. Now, it is necessary to check that because humans are a big part of the work systems of a manufacturing facility and all the jobs have different and corresponding demands from the humans emplyed there like a person working in a automobile factory in the aassmebly line of chasis of a cat need to be good with fixing bolts  and should perform this repetitive tasks at an optimal level with positive stress and the reuirements of a an employee in a badminton racquet or cricket bat making factory will be different. So to select and employ the most efficient and optimum employee we need to have these ergonomic factors under consideration for optimum output fro our manufacturing facitlity.\n\n We do another important thing in all the experiment which is we calculate the learning rate using time taken to complete one cycle of an ecperiment and taking mutliple repititions. We do that to recognise how fast an employee can learn and do the job with miniimal stress. we take readings of multiple cycles of ecperiment performed and then we calculate the learning rate.",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "WE do record another data while performing this experiment which is eye fatigue. We record the eye fatigue before starting the cycle and we measure the eye fatigue at the end of the cycle. The eye fatigue is basically checked to observe the amount of stres that subjects eyes face. All the physical work needs hand eye coordintation and while performing any experiment we check the eye fatigue as our eyes do face stress. For an optimal output from an emplyee we also need to check for the fatigue faced by an employee while performing any job because if for any job he/she gets more fatigue or tiredness then on a long run it might be problematic to the indiividuals health and  along withh that it might effect the productivity of the system of which that individual is a part.",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
             ],
           ),
         ),
@@ -772,27 +793,6 @@ class Recovery extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 25,
                   color: Colors.indigo,
-                ),
-              ),
-              new Text(
-                "The aim of these experimentns is to measure and analyse the ergonimic variables and quantify them to determine how good or how bad a potential subject can be chosen for a particular kind of work, as an employee. Ergonomics is the scientific discipline concerned with the understanding of the interactions among human and other elements of a system, and the proffesion that applies theory, principles, data and methods to deisgn in order to optimize human well- being and overall system performance.\n\n In the lab we had discussions about 6 such experimentss from which we collected data and analysed it to measure the ergonomic performance of a subject. The list of experiments deala with a list of different ergonomic factors:\n (i) Match board assembly: To measure the hand- finger movement and muscular coordination\n (ii) Threading tester: For the same purpose as above,\n (iii) Coordination tester: Hand eye coordination for specific job and change in eye fatigue level\n (iv) Cord binding tester: to measure the hand-finger movement and muscular coordination\n (v) Depth perception test: depth perception test wrt to specified arrangements.\n (vi) Bolt stand test: Hand and finger coordination and to test movement and muscular coorination tester.\n\n",
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.blue,
-                ),
-              ),
-              new Text(
-                "Basically in these tests we are actually looking over two thingS: (i) muscular coordination, hand finger coordination (ii) depth perception and checking visual capabilities. We basically test the muscular coordination and try to quantify and analyse that to test if a potential subject is fit to be employed for a particualr job. Now, it is necessary to check that because humans are a big part of the work systems of a manufacturing facility and all the jobs have different and corresponding demands from the humans emplyed there like a person working in a automobile factory in the aassmebly line of chasis of a cat need to be good with fixing bolts  and should perform this repetitive tasks at an optimal level with positive stress and the reuirements of a an employee in a badminton racquet or cricket bat making factory will be different. So to select and employ the most efficient and optimum employee we need to have these ergonomic factors under consideration for optimum output fro our manufacturing facitlity.\n\n We do another important thing in all the experiment which is we calculate the learning rate using time taken to complete one cycle of an ecperiment and taking mutliple repititions. We do that to recognise how fast an employee can learn and do the job with miniimal stress. we take readings of multiple cycles of ecperiment performed and then we calculate the learning rate.",
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.blue,
-                ),
-              ),
-              new Text(
-                "WE do record another data while performing this experiment which is eye fatigue. We record the eye fatigue before starting the cycle and we measure the eye fatigue at the end of the cycle. The eye fatigue is basically checked to observe the amount of stres that subjects eyes face. All the physical work needs hand eye coordintation and while performing any experiment we check the eye fatigue as our eyes do face stress. For an optimal output from an emplyee we also need to check for the fatigue faced by an employee while performing any job because if for any job he/she gets more fatigue or tiredness then on a long run it might be problematic to the indiividuals health and  along withh that it might effect the productivity of the system of which that individual is a part.",
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.blue,
                 ),
               ),
             ],
