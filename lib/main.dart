@@ -347,7 +347,16 @@ class Prelim extends StatelessWidget {
               new Image.asset('Images/i5e1.jpg', width: 800, height: 500,
                 alignment: Alignment.topRight,),
               new Text(
-                "ASSEMBLY FLOW DIAGRAM:​\n",
+                "\nWork bench diagram for Pinboard assembly:​\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Image.asset('Images/i9e1.png', width: 800, height: 300,
+                alignment: Alignment.topRight,),
+              new Text(
+                "\nASSEMBLY FLOW DIAGRAM:​\n",
                 style: TextStyle(
                   fontSize: 25,
                   color: Colors.indigo,
