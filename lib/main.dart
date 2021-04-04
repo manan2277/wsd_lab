@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'question.dart';
@@ -308,8 +306,12 @@ class Prelim extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i1e1.jpg', width: 700, height: 300,
-              alignment: Alignment.topRight,),
+              new Image.asset(
+                'Images/i1e1.jpg',
+                width: 700,
+                height: 300,
+                alignment: Alignment.topRight,
+              ),
               new Text(
                 "Work Bench diagram of 3 Pin Plug Assembly:​\n",
                 style: TextStyle(
@@ -317,8 +319,12 @@ class Prelim extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i2e1.jpg', width: 500, height: 400,
-              alignment: Alignment.topRight,),
+              new Image.asset(
+                'Images/i2e1.jpg',
+                width: 500,
+                height: 400,
+                alignment: Alignment.topRight,
+              ),
               new Text(
                 "Work Bench diagram of Pen Assembly:​\n",
                 style: TextStyle(
@@ -326,8 +332,12 @@ class Prelim extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i3e1.jpg', width: 500, height: 400,
-                alignment: Alignment.topRight,),
+              new Image.asset(
+                'Images/i3e1.jpg',
+                width: 500,
+                height: 400,
+                alignment: Alignment.topRight,
+              ),
               new Text(
                 "\nDiagram showing the use of both hands in the assembly of pen:​\n",
                 style: TextStyle(
@@ -335,8 +345,12 @@ class Prelim extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i4e1.jpg', width: 800, height: 400,
-                alignment: Alignment.topRight,),
+              new Image.asset(
+                'Images/i4e1.jpg',
+                width: 800,
+                height: 400,
+                alignment: Alignment.topRight,
+              ),
               new Text(
                 "Work bench diagram for socket assembly:​\n",
                 style: TextStyle(
@@ -344,8 +358,12 @@ class Prelim extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i5e1.jpg', width: 800, height: 500,
-                alignment: Alignment.topRight,),
+              new Image.asset(
+                'Images/i5e1.jpg',
+                width: 800,
+                height: 500,
+                alignment: Alignment.topRight,
+              ),
               new Text(
                 "\nWork bench diagram for Pinboard assembly:​\n",
                 style: TextStyle(
@@ -353,8 +371,12 @@ class Prelim extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i9e1.png', width: 800, height: 300,
-                alignment: Alignment.topRight,),
+              new Image.asset(
+                'Images/i9e1.png',
+                width: 800,
+                height: 300,
+                alignment: Alignment.topRight,
+              ),
               new Text(
                 "\n\nASSEMBLY FLOW DIAGRAM:​\n",
                 style: TextStyle(
@@ -369,8 +391,12 @@ class Prelim extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i6e1.jpg', width: 800, height: 100,
-                alignment: Alignment.topRight,),
+              new Image.asset(
+                'Images/i6e1.jpg',
+                width: 800,
+                height: 100,
+                alignment: Alignment.topRight,
+              ),
               new Text(
                 "\nIn the same way, the assembly diagram for other methods will be done.\n\nAssembly flow diagram of Pin Board Assembly:\n",
                 style: TextStyle(
@@ -378,8 +404,12 @@ class Prelim extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i7e1.jpg', width: 800, height: 200,
-                alignment: Alignment.topRight,),
+              new Image.asset(
+                'Images/i7e1.jpg',
+                width: 800,
+                height: 200,
+                alignment: Alignment.topRight,
+              ),
               new Text(
                 "\nIn the same way, the assembly diagram for other methods will be done.\n",
                 style: TextStyle(
@@ -402,6 +432,20 @@ class Prelim extends StatelessWidget {
                 ),
               ),
               new Image.asset('Images/i8e1.jpg', width: 800, height: 300),
+              new Text(
+                "Discussion:\n",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "1. The physical relevance of the experiment:\n With the help of the different activities performed, such as assmebly of pen, nno. of methods of doing a job under study are suggested and the optimal method is found by the comparison across some specific criteria. The physical relevance of performing this experiment is :\n\n (i) Improvment in certain areas related to manufacturing such as determining the best sequencee of doing the assembly, reducing monotony in the work, simulation of waste and unproductive operations.\n (ii) Improving word methods through process and operation analysis like manufacturing operations and their sequence, work environment,etc.\n ",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
             ],
           ),
         ),
@@ -557,7 +601,7 @@ class Measure extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i6e2.jpg', width: 100, height: 100),
+              new Image.asset('Images/i6e2.jpg', width: 1000, height: 500),
               new Text(
                 "Learning rate:\n",
                 style: TextStyle(
@@ -566,6 +610,29 @@ class Measure extends StatelessWidget {
                 ),
               ),
               new Image.asset('Images/i7e2.jpg', width: 100, height: 100),
+              new Text(
+                "Discussion:\n",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "1. the learning curve phenomenon refers to the reduction in cycle time that occurs in a repetitivework activity as the number of cycles increases.When the worker(or the respective entity for which the curve is being made) accomplishes atask over and over, the time required for each successive work cycle decreases as he or shelearns the task.The learning curve phenomenon is not limited to the cycle time of a repetitive operation. It canalso be used to estimate the reduction in product cost over time as the number of unitsincreases. In addition to unit time and unit cost, learning curve analysis has also been applied to productquality, occupational safety, contract administration, pricing strategies, and other areaslearning curve theory - there is a constant learning rate that applies to a given repetitivetask.The learning rate is defined as the proportion by which the dependent variable, usually tasktime, is multiplied every time the number of task cycles or work units doubles. \nIR = 1- LR\nIR = improvement rate expressed as a decimal fraction\nLR = learning rate, also expressed as a decimal fraction\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Image.asset('Images/i8e2.jpg', width: 1000, height: 500),
+              new Text(
+                "When the data of Figure 1 are plotted on log-log coordinates, the plot yields a straight line withslope m, as shown in Figure 2. The relationship can be represented mathematically by theequation y = kx^m\n y = dependent variable (in the case of learning curves, this is usually the time or cost of a taskcycle or work unit)\nk = constant representing the value of the dependent variable for the first work unit\nx = number of work units completed (the independent variable)\nm =exponent corresponding to the learning rate = ln(LR)/ ln2\nWhere , LR = learning rate expressed as a decimal fraction (e.g., 80% 0.80)\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Image.asset('Images/i9e2.jpg', width: 1000, height: 500),
             ],
           ),
         ),
@@ -700,6 +767,34 @@ class Recovery extends StatelessWidget {
               ),
               new Image.asset('Images/i3e3.jpg', width: 1000, height: 500),
               new Image.asset('Images/i4e3.jpg', width: 1000, height: 500),
+              new Text(
+                "Discussion:\n",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "The aim of these experimentns is to measure and analyse the ergonimic variables and quantify them to determine how good or how bad a potential subject can be chosen for a particular kind of work, as an employee. Ergonomics is the scientific discipline concerned with the understanding of the interactions among human and other elements of a system, and the proffesion that applies theory, principles, data and methods to deisgn in order to optimize human well- being and overall system performance.\n\n In the lab we had discussions about 6 such experimentss from which we collected data and analysed it to measure the ergonomic performance of a subject. The list of experiments deala with a list of different ergonomic factors:\n (i) Match board assembly: To measure the hand- finger movement and muscular coordination\n (ii) Threading tester: For the same purpose as above,\n (iii) Coordination tester: Hand eye coordination for specific job and change in eye fatigue level\n (iv) Cord binding tester: to measure the hand-finger movement and muscular coordination\n (v) Depth perception test: depth perception test wrt to specified arrangements.\n (vi) Bolt stand test: Hand and finger coordination and to test movement and muscular coorination tester.\n\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "Basically in these tests we are actually looking over two thingS: (i) muscular coordination, hand finger coordination (ii) depth perception and checking visual capabilities. We basically test the muscular coordination and try to quantify and analyse that to test if a potential subject is fit to be employed for a particualr job. Now, it is necessary to check that because humans are a big part of the work systems of a manufacturing facility and all the jobs have different and corresponding demands from the humans emplyed there like a person working in a automobile factory in the aassmebly line of chasis of a cat need to be good with fixing bolts  and should perform this repetitive tasks at an optimal level with positive stress and the reuirements of a an employee in a badminton racquet or cricket bat making factory will be different. So to select and employ the most efficient and optimum employee we need to have these ergonomic factors under consideration for optimum output fro our manufacturing facitlity.\n\n We do another important thing in all the experiment which is we calculate the learning rate using time taken to complete one cycle of an ecperiment and taking mutliple repititions. We do that to recognise how fast an employee can learn and do the job with miniimal stress. we take readings of multiple cycles of ecperiment performed and then we calculate the learning rate.",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "WE do record another data while performing this experiment which is eye fatigue. We record the eye fatigue before starting the cycle and we measure the eye fatigue at the end of the cycle. The eye fatigue is basically checked to observe the amount of stres that subjects eyes face. All the physical work needs hand eye coordintation and while performing any experiment we check the eye fatigue as our eyes do face stress. For an optimal output from an emplyee we also need to check for the fatigue faced by an employee while performing any job because if for any job he/she gets more fatigue or tiredness then on a long run it might be problematic to the indiividuals health and  along withh that it might effect the productivity of the system of which that individual is a part.",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
             ],
           ),
         ),
