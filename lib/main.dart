@@ -250,7 +250,14 @@ class Prelim extends StatelessWidget {
             children: <Widget>[
               //default color
               new Text(
-                '\nObjectives',
+                '\nAssembly of Pen, 3 pin plug, Bicycle pedal and Socket\n',
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                'Objectives',
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
@@ -265,7 +272,7 @@ class Prelim extends StatelessWidget {
                 ),
               ),
               new Text(
-                '\nMaterials required',
+                'Materials required',
                 style: TextStyle(
                   //using ARGB (Alpha Red Green Blue)
                   color: Colors.indigo,
@@ -295,56 +302,77 @@ class Prelim extends StatelessWidget {
                 ),
               ),
               new Text(
-                "Work Bench diagram of ​Bicycle Pedal.​\n",
+                "Work Bench diagram of ​Bicycle Pedal:\n",
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.blue,
+                  color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i1e1.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i1e1.jpg', width: 700, height: 300,
+              alignment: Alignment.topRight,),
               new Text(
-                "Work Bench diagram of Pin Plug and Pen Assembly.​\n",
+                "Work Bench diagram of 3 Pin Plug Assembly:​\n",
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.blue,
+                  color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i2e1.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i3e1.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i2e1.jpg', width: 500, height: 400,
+              alignment: Alignment.topRight,),
               new Text(
-                "The diagram shows the use of both hands in the assembly of pen.​\n",
+                "Work Bench diagram of Pen Assembly:​\n",
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.blue,
+                  color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i4e1.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i5e1.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i3e1.jpg', width: 500, height: 400,
+                alignment: Alignment.topRight,),
+              new Text(
+                "\nDiagram showing the use of both hands in the assembly of pen:​\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Image.asset('Images/i4e1.jpg', width: 800, height: 400,
+                alignment: Alignment.topRight,),
+              new Text(
+                "Work bench diagram for socket assembly:​\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Image.asset('Images/i5e1.jpg', width: 800, height: 500,
+                alignment: Alignment.topRight,),
               new Text(
                 "ASSEMBLY FLOW DIAGRAM:​\n",
                 style: TextStyle(
                   fontSize: 25,
-                  color: Colors.blue,
+                  color: Colors.indigo,
                 ),
               ),
               new Text(
-                "Method 1: Assembly flow diagram for Pen, Bicycle Pedal, 3 pin plug, Socket Assembly.​\n",
+                "Method 1: Assembly flow diagram for Pen, Bicycle Pedal, 3 pin plug, Socket Assembly:​\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i6e1.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i6e1.jpg', width: 800, height: 100,
+                alignment: Alignment.topRight,),
               new Text(
-                "In the same way, the assembly diagram for other methods will be done.\nAssembly flow diagram of Pin Board Assembly.\n",
+                "\nIn the same way, the assembly diagram for other methods will be done.\n\nAssembly flow diagram of Pin Board Assembly:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i7e1.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i7e1.jpg', width: 800, height: 200,
+                alignment: Alignment.topRight,),
               new Text(
-                "In the same way, the assembly diagram for other methods will be done.\n",
+                "\nIn the same way, the assembly diagram for other methods will be done.\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
@@ -354,7 +382,7 @@ class Prelim extends StatelessWidget {
                 "Results:\n",
                 style: TextStyle(
                   fontSize: 25,
-                  color: Colors.blue,
+                  color: Colors.indigo,
                 ),
               ),
               new Text(
@@ -364,7 +392,7 @@ class Prelim extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i8e1.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i8e1.jpg', width: 800, height: 300),
             ],
           ),
         ),
