@@ -420,7 +420,7 @@ class Prelim extends StatelessWidget {
               new Text(
                 "Results:\n",
                 style: TextStyle(
-                  fontSize: 25,
+                  fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
@@ -435,12 +435,12 @@ class Prelim extends StatelessWidget {
               new Text(
                 "Discussion:\n",
                 style: TextStyle(
-                  fontSize: 25,
+                  fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "1. The physical relevance of the experiment:\n With the help of the different activities performed, such as assmebly of pen, nno. of methods of doing a job under study are suggested and the optimal method is found by the comparison across some specific criteria. The physical relevance of performing this experiment is :\n\n (i) Improvment in certain areas related to manufacturing such as determining the best sequencee of doing the assembly, reducing monotony in the work, simulation of waste and unproductive operations.\n (ii) Improving word methods through process and operation analysis like manufacturing operations and their sequence, work environment,etc.\n ",
+                "The physical relevance of the experiment:\n\nWith the help of the different activities performed, such as assembly of pen, no. of methods of doing a job under study are suggested and the optimal method is found by the comparison across some specific criteria. The physical relevance of performing this experiment is :\n\n(i) Improvement in certain areas related to manufacturing such as determining the best sequence of doing the assembly, reducing monotony in the work, simulation of waste and unproductive operations.\n(ii) Improving word methods through process and operation analysis like manufacturing operations and their sequence, work environment,etc.\n ",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
@@ -491,7 +491,7 @@ class Measure extends StatelessWidget {
               new Text(
                 '\nStudy of Match Board Assembly',
                 style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 25,
                   color: Colors.indigo,
                 ),
               ),
@@ -541,18 +541,18 @@ class Measure extends StatelessWidget {
                 ),
               ),
               new Text(
-                "Diagram:\n",
+                "\nDiagram:\n",
                 style: TextStyle(
-                  fontSize: 25,
-                  color: Colors.blue,
+                  fontSize: 20,
+                  color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i1e2.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i1e2.jpg', width: 500, height: 300),
               new Text(
-                "How to measure eye fatigue?\n",
+                "\nHow to measure eye fatigue?\n",
                 style: TextStyle(
-                  fontSize: 25,
-                  color: Colors.blue,
+                  fontSize: 20,
+                  color: Colors.indigo,
                 ),
               ),
               new Text(
@@ -563,24 +563,24 @@ class Measure extends StatelessWidget {
                 ),
               ),
               new Text(
-                "Average Fatigue:\n",
+                "Average Fatigue: (22 + 23 + 21 + 22 + 22)/5 = 22\n",
                 style: TextStyle(
-                  fontSize: 15,
+                  fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i2e2.jpg', width: 100, height: 100),
-              new Image.asset('Images/i3e2.jpg', width: 1000, height: 500),
+             // new Image.asset('Images/i2e2.jpg', width: 100, height: 100),
+              new Image.asset('Images/i3e2.jpg', width: 500, height: 300),
               new Text(
-                "DATA:\n",
+                "\nData:\n",
                 style: TextStyle(
-                  fontSize: 25,
-                  color: Colors.blue,
+                  fontSize: 20,
+                  color: Colors.indigo,
                 ),
               ),
               new Image.asset('Images/i4e2.jpg', width: 1000, height: 500),
               new Text(
-                "T = time taken to complete one trial in sec.\nC = Cumulative time\nA = Average time\nLC = Learning coefficient\nLR = Learning rate\n",
+                " T = time taken to complete one trial in sec.\n C = Cumulative time\n A = Average time\n LC = Learning coefficient\n LR = Learning rate\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
@@ -588,10 +588,10 @@ class Measure extends StatelessWidget {
               ),
               new Image.asset('Images/i5e2.jpg', width: 1000, height: 500),
               new Text(
-                "Formula and Calculation:\n",
+                "\nFormula and Calculation:\n",
                 style: TextStyle(
-                  fontSize: 25,
-                  color: Colors.blue,
+                  fontSize: 20,
+                  color: Colors.indigo,
                 ),
               ),
               new Text(
@@ -601,7 +601,7 @@ class Measure extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i6e2.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i6e2.jpg', width: 500, height: 200),
               new Text(
                 "Learning rate:\n",
                 style: TextStyle(
@@ -609,16 +609,16 @@ class Measure extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i7e2.jpg', width: 100, height: 100),
-              new Text(
-                "Discussion:\n",
+              new Image.asset('Images/i7e2.jpg', width: 50, height: 50),
+             /* new Text(
+                "\nDiscussion:\n",
                 style: TextStyle(
-                  fontSize: 25,
+                  fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "1. the learning curve phenomenon refers to the reduction in cycle time that occurs in a repetitivework activity as the number of cycles increases.When the worker(or the respective entity for which the curve is being made) accomplishes atask over and over, the time required for each successive work cycle decreases as he or shelearns the task.The learning curve phenomenon is not limited to the cycle time of a repetitive operation. It canalso be used to estimate the reduction in product cost over time as the number of unitsincreases. In addition to unit time and unit cost, learning curve analysis has also been applied to productquality, occupational safety, contract administration, pricing strategies, and other areaslearning curve theory - there is a constant learning rate that applies to a given repetitivetask.The learning rate is defined as the proportion by which the dependent variable, usually tasktime, is multiplied every time the number of task cycles or work units doubles. \nIR = 1- LR\nIR = improvement rate expressed as a decimal fraction\nLR = learning rate, also expressed as a decimal fraction\n",
+                "The learning curve phenomenon refers to the reduction in cycle time that occurs in a repetitive work activity as the number of cycles increases. When the worker(or the respective entity for which the curve is being made) accomplishes a task over and over, the time required for each successive work cycle decreases as he or she learns the task. The learning curve phenomenon is not limited to the cycle time of a repetitive operation. It can also be used to estimate the reduction in product cost over time as the number of units increases. In addition to unit time and unit cost, learning curve analysis has also been applied to product quality, occupational safety, contract administration, pricing strategies, and other areas learning curve theory - there is a constant learning rate that applies to a given repetitive task. The learning rate is defined as the proportion by which the dependent variable, usually task time, is multiplied every time the number of task cycles or work units doubles. \n\nIR = 1- LR\nIR = improvement rate expressed as a decimal fraction\nLR = learning rate, also expressed as a decimal fraction\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
@@ -653,7 +653,185 @@ class Measure extends StatelessWidget {
                   fontSize: 20,
                   color: Colors.blue,
                 ),
+              ),*/
+              new Text(
+                "\nStudy on Threading Tester\n",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),
               ),
+              new Text(
+                "Objectives:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "1. To measure the speed of a subject hand and finger movement (efficiency).\n2. To test the movement and muscular coordination of the subject.​\n3. To measure the learning rate of the subject.​​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "\nEquipments Required:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "Thread, Stop Watch, Coordination tester assembly, Fatigue tester​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "Operation:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "1. Insert the thread onto the pinholes in a pattern.\n2. Take note of time taken to complete the job.​\n3. Repeat the steps for the 30 cycles.​\n4. Take visual fatigue reading before and after the experiment.​\n5. Tabulate, analyse and conclude from the data.​​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "Diagram:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Image.asset('Images/i10e2.png', width: 500, height: 300),
+              new Text(
+                "\nData:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Image.asset('Images/i11e2.png', width: 500, height: 300),
+              new Text(
+                "\n\nStudy on Cord Binding tester​\n​",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),
+              ),
+                new Text(
+                "Objectives:\n​",
+    style: TextStyle(
+    fontSize: 20,
+    color: Colors.indigo,
+    ),),
+              new Text(
+                "1. To measure the speed of a subjects hand and finger movement (efficiency).​\n2. To test the movement and muscular coordination of the body of the subject.​\n3. To measure the learning rate of the subject. \n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Equipment Required:​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "Cord Binding Experiment board, Cord, Stop Watch, Recording Sheets, Eye fatigue tester.​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Operation: ​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "1. Eye Fatigue test is recorded before the experiment.\n2. The operation of cord binding is done in sequence.​\n3. Time taken to complete the binding is recorded.​\n4. The experiment is repeated 2 to 3 times for 30 cycle.​\n5. The eye fatigue test is tested after the experiment.​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Diagram: ​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Image.asset('Images/i12e2.png', width: 500, height: 200),
+              new Text(
+                "\nData: ​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Image.asset('Images/i13e2.png', width: 500, height: 300),
+              new Text(
+                "\n\nStudy of Coordination tester​\n​",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "Objectives\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "1. To measure eye-hand coordination of a subject required for a specific job (small cycle)​\n2. To test  the change in eye fatigue level due to this coordination.​\n3. To  measure, the learning rate of the subject for this job.​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Experimental Procedure:  \n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "1.The setup consist of compound slides mechanism with slides in two axis moved with a screw rod.​\n2. A paper is attached on the top of the slides and a stationary pencil is made to touch the map. Movement of map is efficient through screw rods and pencil mark the movement on the map.​\n3. Repeat the experimental procedures.​\n4. Tabulate the data.\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Operation: \n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "1. Check the eye fatigue of operative and record.\n2. Make the operative to perform the cord binding in sequence.​\n3. Record time taken to complete the binding.​\n4. Repeat the experiments for 30 cycles.​\n5. Check eye fatigue of operative and record.​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Diagram: \n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Image.asset('Images/i14e2.png', width: 500, height: 300),
+              new Text(
+                "\nData: \n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Image.asset('Images/i15e2.png', width: 500, height: 200),
             ],
           ),
         ),
