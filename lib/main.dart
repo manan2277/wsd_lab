@@ -1033,9 +1033,9 @@ class Recovery extends StatelessWidget {
             children: <Widget>[
               //default color
               new Text(
-                '\nBICYCLE ERGOMETER',
+                '\nBicycle ergometer',
                 style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 25,
                   color: Colors.indigo,
                 ),
               ),
@@ -1063,7 +1063,7 @@ class Recovery extends StatelessWidget {
                 ),
               ),
               new Text(
-                "Bicycle ergo meter, Stop watch,Anthrop meter, Stethoscope",
+                "Bicycle ergo meter, Stop watch, Anthropometer, Stethoscope",
                 style: TextStyle(
                   //using RGBO (Red Green Blue Opacity)
                   color: Colors.blue,
@@ -1085,35 +1085,35 @@ class Recovery extends StatelessWidget {
                 ),
               ),
               new Text(
-                "\nOxygen consumption rate (OCR):\n",
+                "Oxygen consumption rate (OCR):\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\nOCR (liter/min)= 0.87 + 0.02 HR (beats/min).\n",
+                "OCR (liter/min)= 0.87 + 0.02 HR (beats/min).\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
               new Text(
-                "\nDiagram:\n",
+                "Diagram:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i1e3.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i1e3.jpg', width: 700, height: 400),
               new Text(
-                "\nDATA:\n",
+                "\nData:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i2e3.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i2e3.jpg', width: 800, height: 400),
               new Text(
                 "\nAverage heart rate and oxygen consumption rate with respect to time.\n",
                 style: TextStyle(
@@ -1121,12 +1121,79 @@ class Recovery extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i3e3.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i4e3.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i3e3.jpg', width: 700, height: 300),
+              new Image.asset('Images/i4e3.jpg', width: 700, height: 300),
               new Text(
-                "Discussion:\n",
+                "\nTreadmill\n",
                 style: TextStyle(
                   fontSize: 25,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "Objective\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "The basic purpose of this study is to simulate the walking/running of a subject under the laboratory conditions with Treadmill, and to analyze his/her work cycle and recovery cycle with respect to important body parameter.​\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "Equipments required:\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "1. Specification of treadmill:  Length: 116 cm, Height: 136 cm, Width: 55 cm, Net weight: 40 kg, Space required: 1.25 meters x 1.00 meters​, Speed range: 0 to 15 km/hr, Normal speed:  5 km/hr  \n2. Stethoscope​\n3. Timer​\n4. Record Sheet​\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "Operation\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+        new Text(
+          "1. An inclination and a resistance level is selected.\n2. The resting heart rate (RHR) is measured using stethoscope.​\n3.The belt is mounted and start running at a particular speed at which you feel comfortable. Speed meter shows the running speed in km/hr or mph.​\n4. After each minute of running, working heart rate (WHR) in beats per minute is measured. ​\n5. The running is continued for 5 minutes at almost the same speed.​\n6. WHR readings are to be taken. At the end of 5 minutes, discontinue the exercise, and start taking rest (no work) by sitting on a cushioned chair. \n7. RHR is to be recorded at the end of each minute till the time you get back your RHR at the beginning of the exercise.​\n8. The steps  are repeated1-6 for another exercise of 5-minute duration run at a different speed.\n",
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.blue,
+          ),
+        ),
+              new Text(
+                "Diagram\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Image.asset('Images/i5e3.png', width: 700, height: 300),
+              new Text(
+                "\nData\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Image.asset('Images/i6e3.png', width: 700, height: 400),
+              new Image.asset('Images/i7e3.png', width: 700, height: 400),
+              new Image.asset('Images/i8e3.png', width: 700, height: 400),
+              new Text(
+                "\nDiscussion:\n",
+                style: TextStyle(
+                  fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
