@@ -610,7 +610,7 @@ class Measure extends StatelessWidget {
                 ),
               ),
               new Image.asset('Images/i7e2.jpg', width: 50, height: 50),
-              new Text(
+             /* new Text(
                 "\nDiscussion:\n",
                 style: TextStyle(
                   fontSize: 20,
@@ -624,7 +624,7 @@ class Measure extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-              /*new Image.asset('Images/i8e2.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i8e2.jpg', width: 1000, height: 500),
               new Text(
                 "When the data of Figure 1 are plotted on log-log coordinates, the plot yields a straight line withslope m, as shown in Figure 2. The relationship can be represented mathematically by theequation y = kx^m\n y = dependent variable (in the case of learning curves, this is usually the time or cost of a taskcycle or work unit)\nk = constant representing the value of the dependent variable for the first work unit\nx = number of work units completed (the independent variable)\nm =exponent corresponding to the learning rate = ln(LR)/ ln2\nWhere , LR = learning rate expressed as a decimal fraction (e.g., 80% 0.80)\n",
                 style: TextStyle(
@@ -655,7 +655,7 @@ class Measure extends StatelessWidget {
                 ),
               ),*/
               new Text(
-                "\n\nStudy on Threading Tester\n",
+                "\nStudy on Threading Tester\n",
                 style: TextStyle(
                   fontSize: 25,
                   color: Colors.indigo,
@@ -690,7 +690,7 @@ class Measure extends StatelessWidget {
                 ),
               ),
               new Text(
-                "\nOperation:\n​",
+                "Operation:\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
@@ -704,13 +704,13 @@ class Measure extends StatelessWidget {
                 ),
               ),
               new Text(
-                "\nDiagram:\n​",
+                "Diagram:\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i10e2.png', width: 500, height: 500),
+              new Image.asset('Images/i10e2.png', width: 500, height: 300),
               new Text(
                 "\nData:\n​",
                 style: TextStyle(
@@ -718,7 +718,7 @@ class Measure extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i11e2.png', width: 500, height: 500),
+              new Image.asset('Images/i11e2.png', width: 500, height: 300),
               new Text(
                 "\n\nStudy on Cord Binding tester​\n​",
                 style: TextStyle(
@@ -727,55 +727,55 @@ class Measure extends StatelessWidget {
                 ),
               ),
                 new Text(
-                "\nObjectives:\n​",
+                "Objectives:\n​",
     style: TextStyle(
     fontSize: 20,
     color: Colors.indigo,
     ),),
               new Text(
-                "\n1. To measure the speed of a subjects hand and finger movement (efficiency).​\n2. To test the movement and muscular coordination of the body of the subject.​\n3. To measure the learning rate of the subject. \n​",
+                "1. To measure the speed of a subjects hand and finger movement (efficiency).​\n2. To test the movement and muscular coordination of the body of the subject.​\n3. To measure the learning rate of the subject. \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),),
               new Text(
-                "\nEquipment Required:​\n​",
+                "Equipment Required:​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
               new Text(
-                "\nCord Binding Experiment board, Cord, Stop Watch, Recording Sheets, Eye fatigue tester.​\n​",
+                "Cord Binding Experiment board, Cord, Stop Watch, Recording Sheets, Eye fatigue tester.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),),
               new Text(
-                "\nOperation: ​\n​",
+                "Operation: ​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
               new Text(
-                "\n1. Eye Fatigue test is recorded before the experiment.\n2. The operation of cord binding is done in sequence.​\n3. Time taken to complete the binding is recorded.​\n4. The experiment is repeated 2 to 3 times for 30 cycle.​\n5. The eye fatigue test is tested after the experiment.​\n​",
+                "1. Eye Fatigue test is recorded before the experiment.\n2. The operation of cord binding is done in sequence.​\n3. Time taken to complete the binding is recorded.​\n4. The experiment is repeated 2 to 3 times for 30 cycle.​\n5. The eye fatigue test is tested after the experiment.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),),
               new Text(
-                "\nDiagram: ​\n​",
+                "Diagram: ​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
-              new Image.asset('Images/i12e2.png', width: 500, height: 500),
+              new Image.asset('Images/i12e2.png', width: 500, height: 200),
               new Text(
                 "\nData: ​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
-              new Image.asset('Images/i13e2.png', width: 500, height: 500),
+              new Image.asset('Images/i13e2.png', width: 500, height: 300),
               new Text(
                 "\n\nStudy of Coordination tester​\n​",
                 style: TextStyle(
@@ -783,55 +783,55 @@ class Measure extends StatelessWidget {
                   color: Colors.indigo,
                 ),),
               new Text(
-                "\nObjectives\n​",
+                "Objectives\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
               new Text(
-                "\n1. To measure eye-hand coordination of a subject required for a specific job (small cycle)​\n2. To test  the change in eye fatigue level due to this coordination.​\n3. To  measure, the learning rate of the subject for this job.​\n​",
+                "1. To measure eye-hand coordination of a subject required for a specific job (small cycle)​\n2. To test  the change in eye fatigue level due to this coordination.​\n3. To  measure, the learning rate of the subject for this job.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),),
               new Text(
-                "\nExperimental Procedure:  \n​",
+                "Experimental Procedure:  \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
               new Text(
-                "\n1.The setup consist of compound slides mechanism with slides in two axis moved with a screw rod.​\n2. A paper is attached on the top of the slides and a stationary pencil is made to touch the map. Movement of map is efficient through screw rods and pencil mark the movement on the map.​\n3. Repeat the experimental procedures.​\n4. Tabulate the data.\n​",
+                "1.The setup consist of compound slides mechanism with slides in two axis moved with a screw rod.​\n2. A paper is attached on the top of the slides and a stationary pencil is made to touch the map. Movement of map is efficient through screw rods and pencil mark the movement on the map.​\n3. Repeat the experimental procedures.​\n4. Tabulate the data.\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),),
               new Text(
-                "\nOperation: \n​",
+                "Operation: \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
               new Text(
-                "\n1. Check the eye fatigue of operative and record.\n2. Make the operative to perform the cord binding in sequence.​\n3. Record time taken to complete the binding.​\n4. Repeat the experiments for 30 cycles.​\n5. Check eye fatigue of operative and record.​\n​",
+                "1. Check the eye fatigue of operative and record.\n2. Make the operative to perform the cord binding in sequence.​\n3. Record time taken to complete the binding.​\n4. Repeat the experiments for 30 cycles.​\n5. Check eye fatigue of operative and record.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),),
               new Text(
-                "\nDiagram: \n​",
+                "Diagram: \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
-              new Image.asset('Images/i14e2.png', width: 500, height: 500),
+              new Image.asset('Images/i14e2.png', width: 500, height: 300),
               new Text(
                 "\nData: \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
-              new Image.asset('Images/i15e2.png', width: 500, height: 500),
+              new Image.asset('Images/i15e2.png', width: 500, height: 200),
             ],
           ),
         ),
