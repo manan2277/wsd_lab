@@ -718,7 +718,7 @@ class Measure extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i11e2.png', width: 500, height: 300),
+              new Image.asset('Images/i11e2.png', width: 1000, height: 300),
               new Text(
                 "\n\nStudy on Cord Binding tester​\n​",
                 style: TextStyle(
@@ -775,7 +775,7 @@ class Measure extends StatelessWidget {
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
-              new Image.asset('Images/i13e2.png', width: 500, height: 300),
+              new Image.asset('Images/i13e2.png', width: 800, height: 300),
               new Text(
                 "\n\nStudy of Coordination tester​\n​",
                 style: TextStyle(
@@ -831,7 +831,164 @@ class Measure extends StatelessWidget {
                   fontSize: 20,
                   color: Colors.indigo,
                 ),),
-              new Image.asset('Images/i15e2.png', width: 500, height: 200),
+              new Image.asset('Images/i15e2.png', width: 800, height: 200),
+              new Text(
+                "\n\nStudy of Depth Perception Meter​ \n​",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "Objectives: \n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "1. To measure depth perception of a subject with respect to specified arrangements.​\n2. To assess the  depth perception of the subject.​\n3. To measure the learning rate of the subject for this job.​ \n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Measuring Instruments: \n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "Digital Flicker Visual Fatigue tester, Depth Measuring scale in perception tester.​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Operation:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "1. The subject should be at specific position and adjust the chin rest to bring the eyes of subject to about same position as deep hole of tester.​\n2. The power should be switch on and let subject hold the grip button of the reaction signal cord. \n3. The speed selection switch should be set at 25 mm/sec. The direction lever should be moved from left to right position.​\n4. The other person will move the direction indicator lever to the direction of the mean position.​\n5. When the mean position is reached then activates the reaction button.​\n6. The deviation from the mean position is measured on the measuring scale of tester.​\n7. Repeat the process for 30 more cycles.",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "\nDiagram:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Image.asset('Images/i16e2.png', width: 500, height: 300),
+              new Text(
+                "Data:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Image.asset('Images/i17e2.png', width: 800, height: 300),
+              new Text(
+                "\n\nBolt Stand​\n​",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "Objectives​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "1. To measure the speed of the subject hand and finger movement( Efficiency)​\n2. To Test the movement and muscular coordination of the body of the subject.​\n3. To measure the learning rate of the subject.​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Equipments Required:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "Bolt, Bolt Stand, Stop Watch, Fatique Tester​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Operation:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Text(
+                "1.  The visual fatigue test is recorded in the start of experiment.​\n2. Time taken to make the assembly bolt is recorded.​\n3. The experiment is repeated for 15 times.​\n4. The visual fatigue test is recorded at the end of experiment.​\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),),
+              new Text(
+                "Diagram:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Image.asset('Images/i18e2.png', width: 500, height: 300),
+              new Text(
+                "Data:\n​",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),),
+              new Image.asset('Images/i19e2.png', width: 800, height: 300),
+              new Text(
+                "\nDiscussion:\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "The learning curve phenomenon refers to the reduction in cycle time that occurs in a repetitive work activity as the number of cycles increases. When the worker(or the respective entity for which the curve is being made accomplishes a task over and over, the time required for each successive work cycle decreases as he or she learns the task. The learning curve phenomenon is not limited to the cycle time of a repetitive operation. It can also be used to estimate the reduction in product cost over time as the number of units increases. In addition to unit time and unit cost, learning curve analysis has also been applied to product quality, occupational safety, contract administration, pricing strategies, and other areas learning curve theory - there is a constant learning rate that applies to a given repetitive task. The learning rate is defined as the proportion by which the dependent variable, usually task time, is multiplied every time the number of task cycles or work units doubles. \n\nIR = 1- LR\nIR = improvement rate expressed as a decimal fraction\nLR = learning rate, also expressed as a decimal fraction\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Image.asset('Images/i8e2.jpg', width: 1000, height: 400),
+              new Text(
+                "When the data of Figure 1 are plotted on log-log coordinates, the plot yields a straight line with slope m, as shown in Figure 2. The relationship can be represented mathematically by the equation y = kx^m\n y = dependent variable (in the case of learning curves, this is usually the time or cost of a task cycle or work unit)\nk = constant representing the value of the dependent variable for the first work unit\nx = number of work units completed (the independent variable)\nm =exponent corresponding to the learning rate = ln(LR)/ ln2\nWhere , LR = learning rate expressed as a decimal fraction (e.g., 80% 0.80)\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Image.asset('Images/i9e2.jpg', width: 1000, height: 400),
+              new Text(
+                "The aim of these experiments is to measure and analyse the ergonomic variables and quantify them to determine how good or how bad a potential subject can be chosen for a particular kind of work, as an employee. Ergonomics is the scientific discipline concerned with the understanding of the interactions among human and other elements of a system, and the profession that applies theory, principles, data and methods to design in order to optimize human well- being and overall system performance.\n\n In the lab we had discussions about 6 such experiments from which we collected data and analysed it to measure the ergonomic performance of a subject. The list of experiments deals with a list of different ergonomic factors:\n (i) Match board assembly: To measure the hand- finger movement and muscular coordination\n (ii) Threading tester: For the same purpose as above,\n (iii) Coordination tester: Hand eye coordination for specific job and change in eye fatigue level\n (iv) Cord binding tester: to measure the hand-finger movement and muscular coordination\n (v) Depth perception test: depth perception test wrt to specified arrangements.\n (vi) Bolt stand test: Hand and finger coordination and to test movement and muscular coordination tester.\n\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "In these tests we are actually looking over two thingS: (i) muscular coordination, hand finger coordination (ii) depth perception and checking visual capabilities. We basically test the muscular coordination and try to quantify and analyse that to test if a potential subject is fit to be employed for a particular job. Now, it is necessary to check that because humans are a big part of the work systems of a manufacturing facility and all the jobs have different and corresponding demands from the humans employed there like a person working in a automobile factory in the assembly line of chaosis of a cat need to be good with fixing bolts  and should perform this repetitive tasks at an optimal level with positive stress and the requirements of a an employee in a badminton racket or cricket bat making factory will be different. So to select and employ the most efficient and optimum employee we need to have these ergonomic factors under consideration for optimum output fro our manufacturing facility.\n\n We do another important thing in all the experiment which is we calculate the learning rate using time taken to complete one cycle of an experiment and taking multiple repetitions. We do that to recognise how fast an employee can learn and do the job with minimal stress. we take readings of multiple cycles of experiment performed and then we calculate the learning rate.",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "We do record another data while performing this experiment which is eye fatigue. We record the eye fatigue before starting the cycle and we measure the eye fatigue at the end of the cycle. The eye fatigue is basically checked to observe the amount of stress that subjects eyes face. All the physical work needs hand eye coordination and while performing any experiment we check the eye fatigue as our eyes do face stress. For an optimal output from an employee we also need to check for the fatigue faced by an employee while performing any job because if for any job he/she gets more fatigue or tiredness then on a long run it might be problematic to the individuals health and  along with that it might effect the productivity of the system of which that individual is a part.",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+
             ],
           ),
         ),
