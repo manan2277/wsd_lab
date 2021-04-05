@@ -1366,31 +1366,119 @@ class _StartPageState extends State<StartPage> {
 
   List qList = [
     Questions(
-        "1. Class C fires involve energized\n    electrical equipment.", false),
+        "1. A job is carried out via \n  multiple methods and a comparison \n  is drawn between these methods \n   to find out the optimal method \n  of doing the job.", true
+        ),
     Questions(
-        "2. The wet chemical extinguisher is a  \n    specialized type primarily focused \n    on class K fires.",
-        true),
+        "2. A method is determined as \n  optimal for a job only if it takes \n  the least time to complete and \n  does not depend on any other \n  factors.", false
+        ),
     Questions(
-        "3. Hypothermia can occur if you \n    immerse large, severe burns in\n    water.",
-        true),
+        "3. In an industrial setting \n  we can determine the optimal \n  method to do a job from a pool \n  of methods, by using the principles \n  learned in this experiment.", true
+        ),
     Questions(
-        "4. DIAL 101 for fire brigade,102 for      \n    ambulance.", true),
+        "4. Ease in handling, the flow of \n  components, simultaneous use of both \n  hands are some factors that are \n  used to compare between different types \n  of methods to do a job.", true
+        ),
     Questions(
-        "5. Foam fire extinguishers are \n    suitablefor class A .", true),
+        "5. Learning curve is a graphical \n  representation of one’s performance \n  in doing a job vs. the amount \n  of learning efforts he/she has \n  put in.", true
+        ),
     Questions(
-        "6. A burn is tissue damage from \n    contactwith flames.", true),
+        "6. The learning curve always keeps \n  on increasing exponentially with \n  the increase in learning efforts.", false
+        ),
     Questions(
-        "7. Aim the nozzle or hose at the base \n    of the fire from the recommended \n    safe distance.",
-        true),
+        "7. Learning curve plateaus after \n  a while and one’s performance never \n  actually reaches 100% in a job.", true
+        ),
     Questions(
-        "8. A water mist extinguisher is safe \n    and effective for use on classes A,\n    B, C and K fires.",
-        true),
+        "8. In a log-log graph of time required   \n  to do a job vs. number of times the job   \n  has been done, the slope is constant. This \n  slope is known as the learning rate.", true
+        ),
     Questions(
-        "9. AFCI's are used to shut off\n    electricity in dangerous condition.",
-        true),
+        "9. Learning curve can be utilised in an industry   \n  to choose the best candidate for a new job;   \n  from a pool of candidates by looking at their   \n  learning abilities for another job which requires   \n  similar skill sets as the new one", true
+        ),
     Questions(
-        "10. A clean agent fire extinguisher  is\n     a type of gaseous fire\n     suppression. Stored in its liquid\n     form.",
-        true),
+        "10. Hand-finger movement, muscle  \n  coordination, depth perception are  \n  examples of ergonomic variables  \n  discussed in this experiment.", true
+        ),
+      Questions(
+        "11. Specific ergonomic variables  \n  related to a job can be measured  \n  of a person using this experiment to  \n  know if that person is suitable  \n  for the job.", true
+        ),
+    Questions(
+        "12. Eye fatigue is not an important \n   metric to keep track of while  \n  conducting this experiment.", false
+        ),
+    Questions(
+        "13. Eye fatigue experienced while  \n  doing a job subject can be \n   measured by a device known as  \n  ‘Eye fatigue device’.", false
+        ),
+    Questions(
+        "14. The plot of ‘Oxygen consumption  \n  rate’ vs. ‘Physical working capacity’  \n  in a bicycle ergometer experiment  \n  is linear.", true
+        ),
+    Questions(
+        "15. The objective of the Treadmill  \n  experiment is to measure and analyze  \n  the working capacity of the subjects  \n  on a treadmill.", false
+        ),
+    Questions(
+        "16. In the treadmill experiment,  \n  the subject runs at a speed that  \n  is higher than his/her comfort level.", false
+        ),
+    Questions(
+        "17. Principles of Bicycle ergometer experiment   \n  can be used in an industry to ensure that there   \n  is sufficient oxygen supply for the  workers   \n  depending on how physically intensive is the   \n  job.", true
+        ),
+    Questions(
+        "18. Principles of Treadmill experiment  \n  can be used by the management  \n  to design optimal working and break  \n  periods for the workers for a  \n  specific job.", true
+        ),
+    Questions(
+        "19. The objective of the ‘weightlifting  \n  task’ experiment is to determine  \n  the recommended weightlifting limit  \n  and lifting index for a job.", true
+        ),
+    Questions(
+        "20. Not setting proper weightlifting  \n  limits for a job and allowing workers  \n  to lift excessive loads can lead  \n  to only short-term injuries.", false
+        ),
+    Questions(
+        "21. Lifting excessive weights in a job can  \n  not only lead to injuries and accidents but  \n  may also lead to workers getting tired quickly, \n  therefore, reducing the optimality of the  \n  work system.", true
+        ),
+    Questions(
+        "22. The eye fatigue tester is used to measure   \n  the eye fatigue of a subject during a job.   \n  This metric is a good reflection of  \n  the mental exhaustion of the subject and is important  \n   for the weightlifting task experiment.", true
+        ),
+    Questions(
+        "23. In the bell assembly experiment,   \n  a two-hand activity chart is made   \n  and is used to compare different   \n  methods of assembling a disassembled   \n  bell.", true
+        ),
+    Questions(
+        "24. Single-handed methods of bell assembly  \n   are usually much more optimal than two-handed   \n  methods as the subject has the ability   \n  to focus on one component at a time.", false
+        ),
+    Questions(
+        "25. While assembling a bell, actions   \n  like twisting, turning, and fixing   \n  can be better performed when both   \n  hands are used.", true
+        ),
+    Questions(
+        "26. An optimal bell assembly method may not   \n  be the one that is the fastest but a method   \n  that is optimal in consideration of factors   \n  like the complexity of the method and the   \n  amount of stress it puts on the subject.", true
+        ),
+    Questions(
+        "27. Studying the reflectivity of different types  \n   of equipment in an industry under different light   \n  conditions is not important to avoid accidents   \n  or injuries among the workers while doing the job.", false
+        ),
+    Questions(
+        "28. Applying principles of light   \n  illuminance experiment in an industrial   \n  setting allows the management to ensure   \n  proper lighting conditions so that   \n  workers’ efficiency can be optimised.", true
+        ),
+    Questions(
+        "29.  Poor lighting conditions may   \n  lead to eye fatigue and unnecessary   \n  stress among the workers in an   \n  industrial setting.", true
+        ),
+    Questions(
+        "30. Comparing illuminance of light at different   \n  angular positions is not important in the light  \n   illuminance experiment. Only illuminance of light   \n  normal to the surface of the material is of   \n  significance.", false
+        ),
+    Questions(
+        "31. The ‘rating film’ experiment   \n  is a time-motion study experiment.", true
+        ),
+    Questions(
+        "32. Higher the rating given to a worker  \n   in the rating film experiment,   \n  lower is his/her pace of doing   \n  the job.", false
+        ),
+    Questions(
+        "33. Using the principles of the rating film experiment   \n  it can be ensured that workers with a job   \n  completion speed higher than a threshold can   \n  be identified so that this sub-system does not   \n  become a bottleneck.", true
+        ),
+    Questions(
+        "34. A viable system must have a fluid   \n  motion of all its soft elements   \n  (like human personnel). It   \n  should be practical and efficient.", true
+        ),
+    Questions(
+        "35. One of the objectives of the   \n  anthropometry experiments is to study   \n  the variability in the body dimensions   \n  for several groups of people.", true
+        ),
+    Questions(
+        "36. While deciding the anthropometric   \n  metrics of a group, the normal range   \n  is usually taken as 1 - 99 percentile   \n  for males and females.", false
+        ),
+    Questions(
+        "37. Anthropometer is a tool used to   \n  measure the dimensions of different parts   \n  of a human body.", true
+        ),
+    Questions(
+        "38. Using anthropometric metrics to   \n  design chairs and tables for the workers   \n  is inconsequential to their work efficiency.", false
+        ),    
   ];
 
   var score = 0;
@@ -1399,9 +1487,9 @@ class _StartPageState extends State<StartPage> {
     if (userChoice == qList[counter].isCorrect) {
       print("correct");
 
-      score = score + 5;
-      if (score >= 50) {
-        score = 50;
+      score = score + 2;
+      if (score >= 76) {
+        score = 76;
       }
       final snackbar = SnackBar(
         duration: Duration(milliseconds: 1000),
@@ -1421,7 +1509,7 @@ class _StartPageState extends State<StartPage> {
       Scaffold.of(context).showSnackBar(snackbar);
     }
     setState(() {
-      if (counter < 9) {
+      if (counter < 37) {
         counter = counter + 1;
       }
     });
@@ -1448,7 +1536,7 @@ class _StartPageState extends State<StartPage> {
                 width: double.infinity,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage('images/pic3.png'), fit: BoxFit.fill),
+                      image: AssetImage('homepage2.jpg'), fit: BoxFit.fill),
                 ),
               ),
               //Padding(padding: EdgeInsets.only(top: 30)),
@@ -1465,7 +1553,7 @@ class _StartPageState extends State<StartPage> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Text(
-                      "Score : $score /50",
+                      "Score : $score /76",
                       style: TextStyle(
                           color: Colors.green,
                           fontSize: 20,
