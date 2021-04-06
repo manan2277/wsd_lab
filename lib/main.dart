@@ -1547,62 +1547,62 @@ class Lightning extends StatelessWidget {
             children: <Widget>[
               //default color
               new Text(
-                "\n Objectives:\n",
+                "\nObjectives:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n 1. To find out the Illuminance of light at various heights and finding the luminous intensity of the sources. \n2. To find out the illuminance of light at different angular positions and finding the intensity of light sources \n3. To find out the reflectivity of the objects using one source of light.\n",
+                "1. To find out the Illuminance of light at various heights and finding the luminous intensity of the sources. \n2. To find out the illuminance of light at different angular positions and finding the intensity of light sources \n3. To find out the reflectivity of the objects using one source of light.\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
               new Text(
-                "\n Materials Required:\n",
+                "Materials Required:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n LIght source set up, Photometer, Angle protractor scale\n",
+                "Light source set up, Photometer, Angle protractor scale\n",
                 style: TextStyle(fontSize: 20, color: Colors.blue),
               ),
               new Text(
-                "\n Theory:\n",
+                "Theory:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n Luminous intensity (I): It is the amount of light in a particular direction. It is measured in candela(cd)\nIlluminance (E ): It is the amount of light luminous flux falling on a surface. It is measured in lumens per unit area, called lux.\nLuminance (L): It is the brightness of an illuminated or luminous surface. It is measured in intensity per unit area that is candela per square meter. (cd/sq.meter).\nReflectence (R ): It is the percentage of light reflected by a surface.\n",
+                "Luminous intensity (I): It is the amount of light in a particular direction. It is measured in candela(cd)\nIlluminance (E): It is the amount of light luminous flux falling on a surface. It is measured in lumens per unit area, called lux.\nLuminance (L): It is the brightness of an illuminated or luminous surface. It is measured in intensity per unit area that is candela per square meter(cd/sq.meter).\nReflectance (R): It is the percentage of light reflected by a surface.\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i1e6.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i1e6.jpg', width: 1000, height: 400),
               new Text(
-                "\n Operations:\n",
+                "\nOperations:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n1. Measure the height of the light from observation level.\n2. Measure value of E in Lux by meter at different heights.\n3. Take at least 5 readings.\n4. Find the luminous intensity  I from the value of E.\n5. Measure the E at different positions at base. \n 6.Measure the angle and height.\n7.Take at least five readings.\n8. Similarly calculate I from the formulae.\n9. Compare I at different positions.\n 10. Measure E at base keeping different color papers. \n11. Use meter and find the Luminance. \n12. Calculate the reflectance of the different sheets. \n ",
+                "1. Measure the height of the light from observation level.\n2. Measure value of E in Lux by meter at different heights.\n3. Take at least 5 readings.\n4. Find the luminous intensity  I from the value of E.\n5. Measure the E at different positions at base. \n6.Measure the angle and height.\n7.Take at least five readings.\n8. Similarly calculate I from the formulae.\n9. Compare I at different positions.\n10. Measure E at base keeping different color papers. \n11. Use meter and find the Luminance. \n12. Calculate the reflectance of the different sheets. \n ",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
-              new Image.asset('Images/i2e6.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i3e6.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i4e6.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i2e6.jpg', width: 1000, height: 300),
+              new Image.asset('Images/i3e6.jpg', width: 1000, height: 300),
+              new Image.asset('Images/i4e6.jpg', width: 1000, height: 300),
               new Text(
                 "\nExperiment Results:\n",
                 style: TextStyle(
@@ -1610,8 +1610,8 @@ class Lightning extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i5e6.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i6e6.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i5e6.jpg', width: 1000, height: 300),
+              new Image.asset('Images/i6e6.jpg', width: 1000, height: 300),
             ],
           ),
         ),
