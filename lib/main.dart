@@ -45,12 +45,12 @@ class SubPage extends StatelessWidget {
         title: Text(
           'Experiments',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 30,
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         alignment: AlignmentDirectional.bottomStart,
@@ -233,12 +233,12 @@ class Prelim extends StatelessWidget {
         title: Text(
           'Preliminary Understanding of Principle of Method Study',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 25,
           ),
         ),
         //centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -475,11 +475,11 @@ class Measure extends StatelessWidget {
         title: Text(
           'Measurement and Analysis of Ergonomic Variables',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 25,
           ),
         ),
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -1018,12 +1018,12 @@ class Recovery extends StatelessWidget {
         title: Text(
           'Measurement and Analysis of Work and Recovery cycles for Jobs',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 25,
           ),
         ),
         //centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -1226,12 +1226,12 @@ class Weight extends StatelessWidget {
         title: Text(
           'Weight lifting task experiment',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 25,
           ),
         ),
         //centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -1354,12 +1354,12 @@ class Time extends StatelessWidget {
         title: Text(
           'Time study of Assembly and Machining Jobs',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 25,
           ),
         ),
         //centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
     body: Container(
     child: SingleChildScrollView(
@@ -1532,12 +1532,12 @@ class Lightning extends StatelessWidget {
         title: Text(
           'Lightning Arrangement - Visibility Measurement',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 25,
           ),
         ),
         //centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -1641,12 +1641,12 @@ class Rating extends StatelessWidget {
         title: Text(
           'Rating Film Exercises',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 25,
           ),
         ),
         //centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -1656,66 +1656,68 @@ class Rating extends StatelessWidget {
             children: <Widget>[
               //default color
               new Text(
-                "\n Objectives:\n",
+                "\nObjectives:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n 1. To measure the speed of different job with their standard time and giving their rating to the job. \n2. To test the movement and muscular coordination of the body and give rating on that basis.\n",
+                "1. To measure the speed of different job with their standard time and giving their rating to the job. \n2. To test the movement and muscular coordination of the body and give rating on that basis.\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
               new Text(
-                "\n Materials Required:\n",
+                "Materials Required:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n Recording Sheets, Pen and Pencil, Display (Movies of performance sample rating )\n",
+                "Recording Sheets, Pen and Pencil, Display (Movies of performance sample rating )\n",
                 style: TextStyle(fontSize: 20, color: Colors.blue),
               ),
               new Text(
-                "\n Operations:\n",
+                "Operations:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n1. The videos were watched by the students.\n2. Each video consisted of a demonstration and three variant of it at three different speed.\n3. The variant of the demonstration was rated taking the demonstration at normal speed.\n4. The rating was compared with the control reading and deviation from it was calculated.\n",
+                "1. The videos were watched by the students.\n2. Each video consisted of a demonstration and three variant of it at three different speed.\n3. The variant of the demonstration was rated taking the demonstration at normal speed.\n4. The rating was compared with the control reading and deviation from it was calculated.\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
               new Text(
-                "\n Diagram:\n",
+                "Diagram:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i1e8.jpg', width: 1000, height: 500),
+              /*new Image.asset('Images/i1e8.jpg', width: 700, height: 300),
               new Image.asset('Images/i2e8.jpg', width: 1000, height: 500),
               new Image.asset('Images/i3e8.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i4e8.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i4e8.jpg', width: 1000, height: 500),*/
+              new Image.asset('Images/i10e8.png', width: 1000, height: 500),
               new Text(
-                "\nDATA:\n",
+                "\n\nData:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i5e8.jpg', width: 1000, height: 500),
+             /* new Image.asset('Images/i5e8.jpg', width: 1000, height: 500),
               new Image.asset('Images/i6e8.jpg', width: 1000, height: 500),
               new Image.asset('Images/i7e8.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i8e8.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i8e8.jpg', width: 1000, height: 500),*/
+              new Image.asset('Images/i11e8.png', width: 1000, height: 500),
               new Text(
                 "\nCalculations:\n",
                 style: TextStyle(
@@ -1723,7 +1725,7 @@ class Rating extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i9e8.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i12e8.png', width: 1000, height: 300),
             ],
           ),
         ),
@@ -1753,12 +1755,12 @@ class Bell extends StatelessWidget {
         title: Text(
           'Bell Assembly Experiment',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 25,
           ),
         ),
         //centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
       floatingActionButton: FloatingActionButton(
         child: Text(
@@ -1783,14 +1785,14 @@ class Anthro extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          'Anthropometry: Measuring and analyzing data for the group of subjects in  different postures',
+          'Anthropometry: Measuring and analyzing data for the group of subjects in different postures',
           style: TextStyle(
-            color: Colors.indigo,
+            color: Colors.white,
             fontSize: 25,
           ),
         ),
         //centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -1800,53 +1802,53 @@ class Anthro extends StatelessWidget {
             children: <Widget>[
               //default color
               new Text(
-                "\n Objectives:\n",
+                "\nObjectives:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n 1. To study the variability in the body dimensions for several group of persons in different postures. \n2. To compare anthropometric measures between smallest and largest persons within the group.\n3. To check whether the existing height-adjustable  chairs are suitable for the groups/persons. \n",
+                "1. To study the variability in the body dimensions for several group of persons in different postures. \n2. To compare anthropometric measures between smallest and largest persons within the group.\n3. To check whether the existing height-adjustable  chairs are suitable for the groups/persons. \n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
               new Text(
-                "\n Materials Required:\n",
+                "Materials Required:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n Anthropometer, Chair \n",
+                "Anthropometer, Chair \n",
                 style: TextStyle(fontSize: 20, color: Colors.blue),
               ),
               new Text(
-                "\n Operations:\n",
+                "Operations:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
               new Text(
-                "\n1. The measurement of body dimension with the help of anthropometer is taken and record them.\n2. A database of measurement in sitting and standing position is created and take the industrial relevance from the list of specific body dimensions.\n3. The percentile range is determined for your group. Normally it is  5th -  95th  percentile for male and female.\n4. A statistical summary of anthropometry data for the given work station is to be presented.\n",
+                "1. The measurement of body dimension with the help of anthropometer is taken and record them.\n2. A database of measurement in sitting and standing position is created and take the industrial relevance from the list of specific body dimensions.\n3. The percentile range is determined for your group. Normally it is  5th -  95th  percentile for male and female.\n4. A statistical summary of anthropometry data for the given work station is to be presented.\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
               new Text(
-                "\n Diagram:\n",
+                "Diagram:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i1e9.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i2e9.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i1e9.jpg', width: 800, height: 500),
+              new Image.asset('Images/i2e9.jpg', width: 800, height: 500),
               new Text(
                 "\nCalculations:\n",
                 style: TextStyle(
@@ -1854,11 +1856,9 @@ class Anthro extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-              new Image.asset('Images/i3e9.jpg', width: 1000, height: 500),
-
-              new Image.asset('Images/i4e9.jpg', width: 1000, height: 500),
-
-              new Image.asset('Images/i5e9.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i3e9.jpg', width: 200, height: 50),
+              new Image.asset('Images/i4e9.jpg', width: 200, height: 50),
+              new Image.asset('Images/i5e9.jpg', width: 800, height: 400),
             ],
           ),
         ),
@@ -1893,9 +1893,10 @@ class _QuizState extends State<Quiz> {
         title: Text(
           'QUIZ',
           style: TextStyle(
-              fontSize: 22, fontWeight: FontWeight.bold, color: Colors.red[50]),
+              fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         centerTitle: true,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: StartPage(),
@@ -1914,7 +1915,7 @@ class _StartPageState extends State<StartPage> {
 
   List qList = [
     Questions(
-        "1. A job is carried out via \n  multiple methods and a comparison \n  is drawn between these methods \n   to find out the optimal method \n  of doing the job.", true
+        "1. A job is carried out via\n multiple methods and a comparison \n  is drawn between these methods \n   to find out the optimal method \n  of doing the job.", true
         ),
     Questions(
         "2. A method is determined as \n  optimal for a job only if it takes \n  the least time to complete and \n  does not depend on any other \n  factors.", false
@@ -2073,7 +2074,7 @@ class _StartPageState extends State<StartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber[50],
+      backgroundColor: Colors.white,
       body: Builder(
         builder: (BuildContext context) => Container(
           child: Column(
@@ -2093,6 +2094,7 @@ class _StartPageState extends State<StartPage> {
                     gradient: LinearGradient(
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
+
                         colors: [
                       Color(0xFFfcd744),
                       Color(0xFFfcd744),
