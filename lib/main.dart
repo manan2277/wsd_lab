@@ -1915,118 +1915,118 @@ class _StartPageState extends State<StartPage> {
 
   List qList = [
     Questions(
-        "1. A job is carried out via\n multiple methods and a comparison \n  is drawn between these methods \n   to find out the optimal method \n  of doing the job.", true
+        "1. A job is carried out via multiple methods and a comparison is drawn between these methods to find out the optimal method of doing the job.", true
         ),
     Questions(
-        "2. A method is determined as \n  optimal for a job only if it takes \n  the least time to complete and \n  does not depend on any other \n  factors.", false
+        "2. A method is determined as optimal for a job only if it takes the least time to complete and does not depend on any other factors.", false
         ),
     Questions(
-        "3. In an industrial setting \n  we can determine the optimal \n  method to do a job from a pool \n  of methods, by using the principles \n  learned in this experiment.", true
+        "3. In an industrial setting we can determine the optimal method to do a job from a pool of methods, by using the principles learned in this experiment.", true
         ),
     Questions(
-        "4. Ease in handling, the flow of \n  components, simultaneous use of both \n  hands are some factors that are \n  used to compare between different types \n  of methods to do a job.", true
+        "4. Ease in handling, the flow of components, simultaneous use of both hands are some factors that are used to compare between different types of methods to do a job.", true
         ),
     Questions(
-        "5. Learning curve is a graphical \n  representation of one’s performance \n  in doing a job vs. the amount \n  of learning efforts he/she has \n  put in.", true
+        "5. Learning curve is a graphical representation of one’s performance in doing a job vs. the amount of learning efforts he/she has put in.", true
         ),
     Questions(
-        "6. The learning curve always keeps \n  on increasing exponentially with \n  the increase in learning efforts.", false
+        "6. The learning curve always keeps on increasing exponentially with the increase in learning efforts.", false
         ),
     Questions(
-        "7. Learning curve plateaus after \n  a while and one’s performance never \n  actually reaches 100% in a job.", true
+        "7. Learning curve plateaus after a while and one’s performance never actually reaches 100% in a job.", true
         ),
     Questions(
-        "8. In a log-log graph of time required   \n  to do a job vs. number of times the job   \n  has been done, the slope is constant. This \n  slope is known as the learning rate.", true
+        "8. In a log-log graph of time required to do a job vs. number of times the job has been done, the slope is constant. This slope is known as the learning rate.", true
         ),
     Questions(
-        "9. Learning curve can be utilised in an industry   \n  to choose the best candidate for a new job;   \n  from a pool of candidates by looking at their   \n  learning abilities for another job which requires   \n  similar skill sets as the new one", true
+        "9. Learning curve can be utilised in an industry to choose the best candidate for a new job; from a pool of candidates by looking at their learning abilities for another job which requires similar skill sets as the new one", true
         ),
     Questions(
-        "10. Hand-finger movement, muscle  \n  coordination, depth perception are  \n  examples of ergonomic variables  \n  discussed in this experiment.", true
+        "10. Hand-finger movement, muscle coordination, depth perception are examples of ergonomic variables discussed in this experiment.", true
         ),
       Questions(
-        "11. Specific ergonomic variables  \n  related to a job can be measured  \n  of a person using this experiment to  \n  know if that person is suitable  \n  for the job.", true
+        "11. Specific ergonomic variables related to a job can be measured of a person using this experiment to know if that person is suitable for the job.", true
         ),
     Questions(
-        "12. Eye fatigue is not an important \n   metric to keep track of while  \n  conducting this experiment.", false
+        "12. Eye fatigue is not an important metric to keep track of while conducting this experiment.", false
         ),
     Questions(
-        "13. Eye fatigue experienced while  \n  doing a job subject can be \n   measured by a device known as  \n  ‘Eye fatigue device’.", false
+        "13. Eye fatigue experienced while doing a job subject can be measured by a device known as ‘Eye fatigue device’.", false
         ),
     Questions(
-        "14. The plot of ‘Oxygen consumption  \n  rate’ vs. ‘Physical working capacity’  \n  in a bicycle ergometer experiment  \n  is linear.", true
+        "14. The plot of ‘Oxygen consumption rate’ vs. ‘Physical working capacity’ in a bicycle ergometer experiment is linear.", true
         ),
     Questions(
-        "15. The objective of the Treadmill  \n  experiment is to measure and analyze  \n  the working capacity of the subjects  \n  on a treadmill.", false
+        "15. The objective of the Treadmill experiment is to measure and analyze the working capacity of the subjects on a treadmill.", false
         ),
     Questions(
-        "16. In the treadmill experiment,  \n  the subject runs at a speed that  \n  is higher than his/her comfort level.", false
+        "16. In the treadmill experiment, the subject runs at a speed that is higher than his/her comfort level.", false
         ),
     Questions(
-        "17. Principles of Bicycle ergometer experiment   \n  can be used in an industry to ensure that there   \n  is sufficient oxygen supply for the  workers   \n  depending on how physically intensive is the   \n  job.", true
+        "17. Principles of Bicycle ergometer experiment can be used in an industry to ensure that there is sufficient oxygen supply for the  workers depending on how physically intensive is the job.", true
         ),
     Questions(
-        "18. Principles of Treadmill experiment  \n  can be used by the management  \n  to design optimal working and break  \n  periods for the workers for a  \n  specific job.", true
+        "18. Principles of Treadmill experiment can be used by the management to design optimal working and break periods for the workers for a specific job.", true
         ),
     Questions(
-        "19. The objective of the ‘weightlifting  \n  task’ experiment is to determine  \n  the recommended weightlifting limit  \n  and lifting index for a job.", true
+        "19. The objective of the ‘weightlifting task’ experiment is to determine the recommended weightlifting limit and lifting index for a job.", true
         ),
     Questions(
-        "20. Not setting proper weightlifting  \n  limits for a job and allowing workers  \n  to lift excessive loads can lead  \n  to only short-term injuries.", false
+        "20. Not setting proper weightlifting limits for a job and allowing workers to lift excessive loads can lead to only short-term injuries.", false
         ),
     Questions(
-        "21. Lifting excessive weights in a job can  \n  not only lead to injuries and accidents but  \n  may also lead to workers getting tired quickly, \n  therefore, reducing the optimality of the  \n  work system.", true
+        "21. Lifting excessive weights in a job can not only lead to injuries and accidents but may also lead to workers getting tired quickly, therefore, reducing the optimality of the work system.", true
         ),
     Questions(
-        "22. The eye fatigue tester is used to measure   \n  the eye fatigue of a subject during a job.   \n  This metric is a good reflection of  \n  the mental exhaustion of the subject and is important  \n   for the weightlifting task experiment.", true
+        "22. The eye fatigue tester is used to measure the eye fatigue of a subject during a job. This metric is a good reflection of the mental exhaustion of the subject and is important for the weightlifting task experiment.", true
         ),
     Questions(
-        "23. In the bell assembly experiment,   \n  a two-hand activity chart is made   \n  and is used to compare different   \n  methods of assembling a disassembled   \n  bell.", true
+        "23. In the bell assembly experiment, a two-hand activity chart is made and is used to compare different methods of assembling a disassembled bell.", true
         ),
     Questions(
-        "24. Single-handed methods of bell assembly  \n   are usually much more optimal than two-handed   \n  methods as the subject has the ability   \n  to focus on one component at a time.", false
+        "24. Single-handed methods of bell assembly are usually much more optimal than two-handed methods as the subject has the ability to focus on one component at a time.", false
         ),
     Questions(
-        "25. While assembling a bell, actions   \n  like twisting, turning, and fixing   \n  can be better performed when both   \n  hands are used.", true
+        "25. While assembling a bell, actions like twisting, turning, and fixing can be better performed when both hands are used.", true
         ),
     Questions(
-        "26. An optimal bell assembly method may not   \n  be the one that is the fastest but a method   \n  that is optimal in consideration of factors   \n  like the complexity of the method and the   \n  amount of stress it puts on the subject.", true
+        "26. An optimal bell assembly method may not be the one that is the fastest but a method that is optimal in consideration of factors like the complexity of the method and the amount of stress it puts on the subject.", true
         ),
     Questions(
-        "27. Studying the reflectivity of different types  \n   of equipment in an industry under different light   \n  conditions is not important to avoid accidents   \n  or injuries among the workers while doing the job.", false
+        "27. Studying the reflectivity of different types of equipment in an industry under different light conditions is not important to avoid accidents or injuries among the workers while doing the job.", false
         ),
     Questions(
-        "28. Applying principles of light   \n  illuminance experiment in an industrial   \n  setting allows the management to ensure   \n  proper lighting conditions so that   \n  workers’ efficiency can be optimised.", true
+        "28. Applying principles of light illuminance experiment in an industrial setting allows the management to ensure proper lighting conditions so that workers’ efficiency can be optimised.", true
         ),
     Questions(
-        "29.  Poor lighting conditions may   \n  lead to eye fatigue and unnecessary   \n  stress among the workers in an   \n  industrial setting.", true
+        "29.  Poor lighting conditions may lead to eye fatigue and unnecessary stress among the workers in an industrial setting.", true
         ),
     Questions(
-        "30. Comparing illuminance of light at different   \n  angular positions is not important in the light  \n   illuminance experiment. Only illuminance of light   \n  normal to the surface of the material is of   \n  significance.", false
+        "30. Comparing illuminance of light at different angular positions is not important in the light illuminance experiment. Only illuminance of light normal to the surface of the material is of significance.", false
         ),
     Questions(
-        "31. The ‘rating film’ experiment   \n  is a time-motion study experiment.", true
+        "31. The ‘rating film’ experiment is a time-motion study experiment.", true
         ),
     Questions(
-        "32. Higher the rating given to a worker  \n   in the rating film experiment,   \n  lower is his/her pace of doing   \n  the job.", false
+        "32. Higher the rating given to a worker in the rating film experiment, lower is his/her pace of doing the job.", false
         ),
     Questions(
-        "33. Using the principles of the rating film experiment   \n  it can be ensured that workers with a job   \n  completion speed higher than a threshold can   \n  be identified so that this sub-system does not   \n  become a bottleneck.", true
+        "33. Using the principles of the rating film experiment it can be ensured that workers with a job completion speed higher than a threshold can be identified so that this sub-system does not become a bottleneck.", true
         ),
     Questions(
-        "34. A viable system must have a fluid   \n  motion of all its soft elements   \n  (like human personnel). It   \n  should be practical and efficient.", true
+        "34. A viable system must have a fluid motion of all its soft elements (like human personnel). It should be practical and efficient.", true
         ),
     Questions(
-        "35. One of the objectives of the   \n  anthropometry experiments is to study   \n  the variability in the body dimensions   \n  for several groups of people.", true
+        "35. One of the objectives of the anthropometry experiments is to study the variability in the body dimensions for several groups of people.", true
         ),
     Questions(
-        "36. While deciding the anthropometric   \n  metrics of a group, the normal range   \n  is usually taken as 1 - 99 percentile   \n  for males and females.", false
+        "36. While deciding the anthropometric metrics of a group, the normal range is usually taken as 1 - 99 percentile for males and females.", false
         ),
     Questions(
-        "37. Anthropometer is a tool used to   \n  measure the dimensions of different parts   \n  of a human body.", true
+        "37. Anthropometer is a tool used to measure the dimensions of different parts of a human body.", true
         ),
     Questions(
-        "38. Using anthropometric metrics to   \n  design chairs and tables for the workers   \n  is inconsequential to their work efficiency.", false
+        "38. Using anthropometric metrics to design chairs and tables for the workers is inconsequential to their work efficiency.", false
         ),    
   ];
 
@@ -2080,14 +2080,7 @@ class _StartPageState extends State<StartPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Container(
-                height: 270,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                      image: AssetImage('homepage2.jpg'), fit: BoxFit.fill),
-                ),
-              ),
+
               //Padding(padding: EdgeInsets.only(top: 30)),
               Container(
                 decoration: BoxDecoration(
