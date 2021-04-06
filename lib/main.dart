@@ -1257,34 +1257,34 @@ class Weight extends StatelessWidget {
                 ),
               ),
               new Text(
-                '\nNIOSH Lifting Equation:\n',
-                style: TextStyle(
-                  //using ARGB (Alpha Red Green Blue)
-                  color: Colors.indigo,
-                  fontSize: 25,
-                ),
-              ),
-              new Text(
-                '\nRWL= LC x HM x VM x DM x AM x FM x CM\n Lifting Index LI = Load (L)/ RWL\nWhere 		RWL- Recommended Weight Limit\nLC = load constant 23kg\nHM= horizontal multiplier = 25/H\nVM = vertical multiplier =1-(0.003*|v-75|)\nDM = distance multiplier =0.82+(4.5/D)\nAM = asymmetric multiplier =1-0.0032A\nFM = frequency multiplier (from table)\nCM = coupling multiplier (from table)\nAll linear measurements are in cm.\n',
+                'NIOSH Lifting Equation:',
                 style: TextStyle(
                   //using ARGB (Alpha Red Green Blue)
                   color: Colors.indigo,
                   fontSize: 20,
                 ),
               ),
-              new Image.asset('Images/i1e4.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i2e4.jpg', width: 1000, height: 500),
               new Text(
-                '\nTask variables needed to calculate the RWL\n H = Horizontal location of the object relative to the body\nV = Vertical location of the object relative to the floor\nD = Distance the object is moved vertically\nA = Asymmetry angle or twisting requirement\nF = Frequency and duration of lifting activity\nC = Coupling or quality of the workers grip on the object\n',
+                '\nRWL= LC x HM x VM x DM x AM x FM x CM\nLifting Index LI = Load (L)/ RWL\nWhere RWL = Recommended Weight Limit\nLC = load constant 23kg\nHM= horizontal multiplier = 25/H\nVM = vertical multiplier = 1-(0.003*|v-75|)\nDM = distance multiplier = 0.82+(4.5/D)\nAM = asymmetric multiplier = 1-0.0032A\nFM = frequency multiplier (from table)\nCM = coupling multiplier (from table)\nAll linear measurements are in cm.\n',
                 style: TextStyle(
                   //using ARGB (Alpha Red Green Blue)
-                  color: Colors.indigo,
+                  color: Colors.blue,
                   fontSize: 20,
                 ),
               ),
-              new Image.asset('Images/i3e4.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i4e4.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i5e4.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i1e4.jpg', width: 1000, height: 300),
+              new Image.asset('Images/i2e4.jpg', width: 1000, height: 300),
+              new Text(
+                '\nTask variables needed to calculate the RWL\nH = Horizontal location of the object relative to the body\nV = Vertical location of the object relative to the floor\nD = Distance the object is moved vertically\nA = Asymmetry angle or twisting requirement\nF = Frequency and duration of lifting activity\nC = Coupling or quality of the workers grip on the object\n',
+                style: TextStyle(
+                  //using ARGB (Alpha Red Green Blue)
+                  color: Colors.blue,
+                  fontSize: 20,
+                ),
+              ),
+              new Image.asset('Images/i3e4.jpg', width: 1000, height: 300),
+              new Image.asset('Images/i4e4.jpg', width: 1000, height: 300),
+              new Image.asset('Images/i5e4.jpg', width: 1000, height: 300),
               new Text(
                 '\nMaterials required:\n',
                 style: TextStyle(
@@ -1294,7 +1294,7 @@ class Weight extends StatelessWidget {
                 ),
               ),
               new Text(
-                "Given weights, length measuring tape,protractor ",
+                "Given weights, length measuring tape, protractor ",
                 style: TextStyle(
                   //using RGBO (Red Green Blue Opacity)
                   color: Colors.blue,
@@ -1309,22 +1309,22 @@ class Weight extends StatelessWidget {
                 ),
               ),
               new Text(
-                "\n1. Do the weight lifting exercise with given arrangement for a particular number of times (say 10 times in 15 min).\n2.Subjectively assess the physical fatigue felt during the job. Also do eye fatigue measurement test using the equipment.​\n3. Find out the recommended weight limit (RWL) using NIOSH equation. After that find out lifting index (LI).​\n4. Based on the LI propose redesign strategies to design work place arrangement to make LI less than or equal to 1 so that job become less hazardous.\n5. Do the weight lifting experiment using new proposed arrangement and assess the physical fatigue level as before and compare with previous results.\n",
+                "\n1. Do the weight lifting exercise with given arrangement for a particular number of times (say 10 times in 15 min).\n2. Subjectively assess the physical fatigue felt during the job. Also do eye fatigue measurement test using the equipment.​\n3. Find out the recommended weight limit (RWL) using NIOSH equation. After that find out lifting index (LI).​\n4. Based on the LI propose redesign strategies to design work place arrangement to make LI less than or equal to 1 so that job become less hazardous.\n5. Do the weight lifting experiment using new proposed arrangement and assess the physical fatigue level as before and compare with previous results.\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
                 ),
               ),
               new Text(
-                "\nRecording and calculation:\n",
+                "Recording and calculation:\n",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
                 ),
               ),
 
-              new Image.asset('Images/i6e4.jpg', width: 1000, height: 500),
-              new Image.asset('Images/i7e4.jpg', width: 1000, height: 500),
+              new Image.asset('Images/i6e4.jpg', width: 800, height: 400),
+              new Image.asset('Images/i7e4.jpg', width: 800, height: 300),
             ],
           ),
         ),
@@ -1361,6 +1361,152 @@ class Time extends StatelessWidget {
         //centerTitle: true,
         backgroundColor: Colors.white,
       ),
+    body: Container(
+    child: SingleChildScrollView(
+    child: Column(
+    mainAxisAlignment: MainAxisAlignment.start,
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: <Widget>[
+      new Text(
+        "\nAssembly of  Bolt and Nuts\n",
+        style: TextStyle(
+          fontSize: 25,
+          color: Colors.indigo,
+        ),
+      ),
+      new Text(
+        "Objectives:\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.indigo,
+        ),
+      ),
+      new Text(
+        "To perform a method study on the assembly of a nuts and bolts as an individual and as a batch. Hence understand the working of individual assembly and batch assembly of jobs. ​\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.blue,
+        ),
+      ),
+      new Text(
+        "Materials required:\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.indigo,
+        ),
+      ),
+      new Text(
+        "Nuts and Bolts, Spanner and Plates, Washers\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.blue,
+        ),
+      ),
+      new Text(
+        "Operation:\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.indigo,
+        ),
+      ),
+      new Text(
+        "1. The dismantled nut and bolt assembly is placed over the given workplace and prepare a rough sketch of the components and the layout of the assembly.​\n2. The given nuts and bolts are assembled using the sample assembly as an individual.​\n3. The time consumed for each operation is noted down.​\n4. The Cumulative time consumed for the whole assembly need to find out.​\n5. The procedure is repeated as batch production in a group considering each member to be in charge of a workstation.​\n6. The time consumed at each work station is find out and hence find the cumulative time.​\n7. The procedure is performed for various arrangements with sketch and record the time of each of two trials for each member.",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.blue,
+        ),
+      ),
+      new Text(
+        "\nDiagram:\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.indigo,
+        ),
+      ),
+      new Image.asset('Images/i1e5.png', width: 800, height: 400),
+      new Text(
+        "Data:\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.indigo,
+        ),
+      ),
+      new Image.asset('Images/i2e5.png', width: 800, height: 400),
+      new Text(
+        "\nAssembly of a bell \n",
+        style: TextStyle(
+          fontSize: 25,
+          color: Colors.indigo,
+        ),
+      ),
+      new Text(
+        "Objective:\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.indigo,
+        ),
+      ),
+      new Text(
+        "To perform a method and time study on the assembly of bell and hence construct a two hand activity chart.​\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.blue,
+        ),
+      ),
+      new Text(
+        "Materials required:\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.indigo,
+        ),
+      ),
+      new Text(
+        "Bell assembly, Screw driver, Spanners (of apt size), Pencil, Paper​\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.blue,
+        ),
+      ),
+      new Text(
+        "Operation:\n",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.indigo,
+        ),
+      ),
+      new Text("1. The bell assembly is disassembled.\n2. The dismantled parts of the bell are assembled in a particular way over the workplace.​\n3. A rough sketch of the workplace and the Arrangement of the dismantled parts of the bell (a top view of the arrangement is preferable) are drawn.\n4. Assemble the parts in a sequence as shown in the picture and record the time of each operation.​\n5. The operation for different arrangements is repeated for five times and consequently prepare a sketch for the same.​\n6. The best method for the assembly of bell is accessed.​",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.blue,
+        ),
+      ),
+        new Text(
+          "\nDiagram:\n",
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.indigo,
+          ),
+        ),
+        new Image.asset('Images/i3e5.png', width: 800, height: 400),
+        new Text(
+          "Data:\n",
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.indigo,
+          ),
+        ),
+        new Image.asset('Images/i4e5.png', width: 800, height: 400),
+        new Image.asset('Images/i5e5.png', width: 800, height: 400),
+        new Text(
+          "\nResults:\n",
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.indigo,
+          ),
+        ),
+        new Image.asset('Images/i6e5.png', width: 800, height: 400),
+    ]
+    ),),),
       floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
