@@ -54,20 +54,6 @@ class SubPage extends StatelessWidget {
       ),
       body: Container(
         alignment: AlignmentDirectional.bottomStart,
-        /*decoration: BoxDecoration(
-          color: Colors.white,
-      body: Container(
-        alignment: AlignmentDirectional.bottomStart,
-        decoration: BoxDecoration(
-          color: Colors.lightGreen,
-          image: new DecorationImage(
-          //  alignment: Alignment.center,
-             fit: BoxFit.contain,
-              colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.5), BlendMode.dstATop),
-            alignment: Alignment.center,
-              image:AssetImage('images/homepage2.jpg'),
-          ),
-        ),*/
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -192,32 +178,24 @@ class SubPage extends StatelessWidget {
               ),
               color: Colors.white,
             ),
-            FlatButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Quiz()),
-                );
-              },
-              child: Text(
-                "QUIZ",
-                style: TextStyle(fontSize: 20, color: Colors.blue),
-              ),
-              color: Colors.white,
-            ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text(
-          "Back",
+          "Quiz",
           style: TextStyle(
             color: Colors.indigo,
+            fontSize: 15,
+            fontWeight: FontWeight.bold,
           ),
         ),
         backgroundColor: Colors.white,
         onPressed: () {
-          Navigator.pop(context);
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Quiz()),
+          );
         },
       ),
     );
@@ -450,7 +428,7 @@ class Prelim extends StatelessWidget {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
+     /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -461,7 +439,7 @@ class Prelim extends StatelessWidget {
         onPressed: () {
           Navigator.pop(context);
         },
-      ),
+      ),*/
     );
   }
 }
@@ -993,7 +971,7 @@ class Measure extends StatelessWidget {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
+     /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1004,7 +982,7 @@ class Measure extends StatelessWidget {
         onPressed: () {
           Navigator.pop(context);
         },
-      ),
+      ),*/
     );
   }
 }
@@ -1201,7 +1179,7 @@ class Recovery extends StatelessWidget {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
+     /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1212,7 +1190,7 @@ class Recovery extends StatelessWidget {
         onPressed: () {
           Navigator.pop(context);
         },
-      ),
+      ),*/
     );
   }
 }
@@ -1329,7 +1307,7 @@ class Weight extends StatelessWidget {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
+     /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1340,7 +1318,7 @@ class Weight extends StatelessWidget {
         onPressed: () {
           Navigator.pop(context);
         },
-      ),
+      ),*/
     );
   }
 }
@@ -1507,7 +1485,7 @@ class Time extends StatelessWidget {
         new Image.asset('Images/i6e5.png', width: 800, height: 400),
     ]
     ),),),
-      floatingActionButton: FloatingActionButton(
+     /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1518,7 +1496,7 @@ class Time extends StatelessWidget {
         onPressed: () {
           Navigator.pop(context);
         },
-      ),
+      ),*/
     );
   }
 }
@@ -1616,7 +1594,7 @@ class Lightning extends StatelessWidget {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
+      /*floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1627,7 +1605,7 @@ class Lightning extends StatelessWidget {
         onPressed: () {
           Navigator.pop(context);
         },
-      ),
+      ),*/
     );
   }
 }
@@ -1730,7 +1708,7 @@ class Rating extends StatelessWidget {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
+     /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1741,7 +1719,7 @@ class Rating extends StatelessWidget {
         onPressed: () {
           Navigator.pop(context);
         },
-      ),
+      ),*/
     );
   }
 }
@@ -1762,7 +1740,7 @@ class Bell extends StatelessWidget {
         //centerTitle: true,
         backgroundColor: Colors.indigo,
       ),
-      floatingActionButton: FloatingActionButton(
+     /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1773,7 +1751,7 @@ class Bell extends StatelessWidget {
         onPressed: () {
           Navigator.pop(context);
         },
-      ),
+      ),*/
     );
   }
 }
@@ -1862,18 +1840,6 @@ class Anthro extends StatelessWidget {
             ],
           ),
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        child: Text(
-          "Back",
-          style: TextStyle(
-            color: Colors.indigo,
-          ),
-        ),
-        backgroundColor: Colors.white,
-        onPressed: () {
-          Navigator.pop(context);
-        },
       ),
     );
   }
@@ -2042,8 +2008,12 @@ class _StartPageState extends State<StartPage> {
       }
       final snackbar = SnackBar(
         duration: Duration(milliseconds: 1000),
-        backgroundColor: Colors.green,
-        content: Text("Correct!"),
+        backgroundColor: Colors.blue,
+        content: Text("Correct! Well done",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.white,
+        ),),
       );
       Scaffold.of(context).showSnackBar(snackbar);
     } else {
@@ -2052,8 +2022,12 @@ class _StartPageState extends State<StartPage> {
 
       final snackbar = SnackBar(
         duration: Duration(milliseconds: 1000),
-        backgroundColor: Colors.red,
-        content: Text("Incorrect!"),
+        backgroundColor: Colors.indigo,
+        content: Text("Incorrect! Better luck next time",
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.white,
+        ),),
       );
       Scaffold.of(context).showSnackBar(snackbar);
     }
@@ -2088,27 +2062,29 @@ class _StartPageState extends State<StartPage> {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
 
-                        colors: [
-                      Color(0xFFfcd744),
-                      Color(0xFFfcd744),
+                       colors: [
+                      Color(0xFFFFFFF),
+                      Color(0xFFFFFFF),
                     ])),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Text(
-                      "Score : $score /76",
+                      "\nScore : $score /76",
                       style: TextStyle(
-                          color: Colors.green,
+                          color: Colors.indigo,
                           fontSize: 20,
-                          fontWeight: FontWeight.bold),
+                         // fontWeight: FontWeight.bold
+                      ),
                     ),
                     InkWell(
                       child: Text(
-                        "Reset Quiz",
+                        "\nReset Quiz",
                         style: TextStyle(
                             fontSize: 18,
-                            color: Colors.redAccent,
-                            fontWeight: FontWeight.bold),
+                            color: Colors.indigo,
+                            //fontWeight: FontWeight.bold
+                          ),
                       ),
                       onTap: reset,
                     )
@@ -2122,29 +2098,30 @@ class _StartPageState extends State<StartPage> {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
-                      Color(0xFFfcd745),
-                      Color(0xFFe8c752),
-                      Colors.amber[50]
+                      Color(0xFFFFFFF),
+                      Color(0xFFFFFFF),
+                      Colors.white
                     ])),
                 height: 150.0,
                 width: double.infinity,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    RaisedButton(
+                    FlatButton(
                       onPressed: () => {},
-                      padding: EdgeInsets.fromLTRB(30.0, 20.0, 30.0, 20.0),
+                      padding: EdgeInsets.fromLTRB(50.0, 50.0, 50.0, 20.0),
+                     // padding: EdgeInsets.fromLTRB(left, top, right, bottom),
                       child: Text(qList[counter].qText,
                           style: TextStyle(
                             fontSize: 20.0,
-                            color: Colors.green,
+                            color: Colors.blue,
                           )),
                       color: Colors.white,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                           side: BorderSide(
-                            color: Colors.green,
-                            width: 3,
+                            color: Colors.white,
+                            width: 0,
                           )),
                     ),
                   ],
@@ -2154,40 +2131,40 @@ class _StartPageState extends State<StartPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  RaisedButton(
+                  FlatButton(
                     onPressed: () => checkWin(true, context),
                     padding: EdgeInsets.fromLTRB(30.0, 20.0, 30.0, 20.0),
                     child: Text(
                       "TRUE",
                       style: TextStyle(
-                          color: Colors.green,
+                          color: Colors.white,
                           fontSize: 20,
                           fontWeight: FontWeight.bold),
                     ),
-                    color: Colors.white,
+                    color: Colors.indigo,
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                         side: BorderSide(
-                          color: Colors.green,
-                          width: 3,
+                          color: Colors.white,
+                          width: 0,
                         )),
                   ),
-                  RaisedButton(
+                  FlatButton(
                     onPressed: () => checkWin(false, context),
                     padding: EdgeInsets.fromLTRB(30.0, 20.0, 30.0, 20.0),
                     child: Text(
                       "FALSE",
                       style: TextStyle(
-                          color: Colors.redAccent,
+                          color: Colors.white,
                           fontSize: 20,
                           fontWeight: FontWeight.bold),
                     ),
-                    color: Colors.white,
+                    color: Colors.indigo,
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                         side: BorderSide(
-                          color: Colors.redAccent,
-                          width: 3,
+                          color: Colors.white,
+                          width: 0,
                         )),
                   )
                 ],
