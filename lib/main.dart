@@ -2171,9 +2171,10 @@ class _StartPageState extends State<StartPage> {
                   ],
                 ),
               ),
-              Padding(padding: EdgeInsets.only(top: 30)),
+              Padding(padding: EdgeInsets.only(top: 150,left: 30)),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+               // crossAxisAlignment: CrossAxisAlignment.end,
                 children: <Widget>[
                   FlatButton(
                     onPressed: () => checkWin(true, context),
