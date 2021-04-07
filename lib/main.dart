@@ -2164,6 +2164,10 @@ class _StartPageState extends State<StartPage> {
       if (counter <= 37) {
         counter = counter + 1;
       }
+      else{
+        counter = 0;
+        score = 0; 
+      }
     });
   }
 
