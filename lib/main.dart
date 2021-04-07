@@ -1590,6 +1590,20 @@ class Lightning extends StatelessWidget {
               ),
               new Image.asset('Images/i5e6.jpg', width: 1000, height: 300),
               new Image.asset('Images/i6e6.jpg', width: 1000, height: 300),
+              new Text(
+                "\nDiscussion:\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "This experiment helps the industry professionals to find the intensity of light at different heights and angular directions as a balanced level of illumination is necessary for establishing a safe and productive working conditions. Adequate lighting in industries increases productivity, accuracy and safety. This experiment helps the industrial professionals in providing adequate lighting to their workers. Measuring the reflectance is also required to make sure that the workers vision is nit blocked due to unnecessary reflections of light. Blockage of workers vision may damage their eyes and also cause accidents.\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
             ],
           ),
         ),
@@ -1704,6 +1718,20 @@ class Rating extends StatelessWidget {
                 ),
               ),
               new Image.asset('Images/i12e8.png', width: 1000, height: 300),
+              new Text(
+                "\nDiscussion:\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "Physical relevance of the experiment:\nThis experiment can be used rate different speeds of jobs in real time industries and this rating can be used to judge the movement and muscular coordination of the body for a given operation and helps us to choose the most efficient and safest speed at which the operation can be performed in different industries.\n \nSome practical examples where this experiment is useful:\nThis experiment can be used to rate various operations like re-drilling union cylinder, wrapping complete mortice lock, assembling complete cylinder lock, drilling and facing union cylinder body, etc\n\nViable system:\nA viable system is any system organised in such a way as to meet the demands of surviving in the changing environment, i.e the system must be adaptable.",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
             ],
           ),
         ),
@@ -1837,6 +1865,20 @@ class Anthro extends StatelessWidget {
               new Image.asset('Images/i3e9.jpg', width: 200, height: 50),
               new Image.asset('Images/i4e9.jpg', width: 200, height: 50),
               new Image.asset('Images/i5e9.jpg', width: 800, height: 400),
+              new Text(
+                "\nDiscussion:\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "Physical relevance of the experiment:\nAnthropometry is used in various industries for designing safe and sustainable products and work places. The dimensions of all people in a group are taken using the anthropometer and the tools are designed ina such a way that everyone in the group are able to use them comfortably.\n\nPractical examples where this experiment is useful:\nDesigning school furniture like benches, chairs; designing agriculture tools, to find out dimensions of required leg space, height; etc.\n\nAnthropometer:\nAnthropometer is an instrument that consists of a caliberated, vertical rod to which two horizontal arms- one fixed and one movable, are attached and used to measure human dimensions.\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
             ],
           ),
         ),
