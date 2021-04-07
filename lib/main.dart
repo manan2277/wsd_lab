@@ -1993,7 +1993,9 @@ class _StartPageState extends State<StartPage> {
         ),
     Questions(
         "38. Using anthropometric metrics to design chairs and tables for the workers is inconsequential to their work efficiency.", false
-        ),    
+        ),
+    Questions("results:",false),
+
   ];
 
   var score = 0;
@@ -2032,7 +2034,7 @@ class _StartPageState extends State<StartPage> {
       Scaffold.of(context).showSnackBar(snackbar);
     }
     setState(() {
-      if (counter < 37) {
+      if (counter <= 37) {
         counter = counter + 1;
       }
     });
@@ -2109,7 +2111,7 @@ class _StartPageState extends State<StartPage> {
                   children: <Widget>[
                     FlatButton(
                       onPressed: () => {},
-                      padding: EdgeInsets.fromLTRB(50.0, 50.0, 50.0, 20.0),
+                      padding: EdgeInsets.fromLTRB(50.0, 50.0, 50.0, 50.0),
                      // padding: EdgeInsets.fromLTRB(left, top, right, bottom),
                       child: Text(qList[counter].qText,
                           style: TextStyle(
