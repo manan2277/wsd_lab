@@ -2005,118 +2005,118 @@ class _StartPageState extends State<StartPage> {
 
   List qList = [
     Questions(
-        "1. A job is carried out via multiple methods and a comparison is drawn between these methods to find out the optimal method of doing the job.",
+        "PRELIMINARY UNDERSTANDING OF PRINCIPLE OF METHOD STUDY \n \n 1. A job is carried out via multiple methods and a comparison is drawn between these methods to find out the optimal method of doing the job.",
         true),
     Questions(
-        "2. A method is determined as optimal for a job only if it takes the least time to complete and does not depend on any other factors.",
+        "PRELIMINARY UNDERSTANDING OF PRINCIPLE OF METHOD STUDY \n \n 2. A method is determined as optimal for a job only if it takes the least time to complete and does not depend on any other factors.",
         false),
     Questions(
-        "3. In an industrial setting we can determine the optimal method to do a job from a pool of methods, by using the principles learned in this experiment.",
+        "PRELIMINARY UNDERSTANDING OF PRINCIPLE OF METHOD STUDY \n \n 3. In an industrial setting we can determine the optimal method to do a job from a pool of methods, by using the principles learned in this experiment.",
         true),
     Questions(
-        "4. Ease in handling, the flow of components, simultaneous use of both hands are some factors that are used to compare between different types of methods to do a job.",
+        "PRELIMINARY UNDERSTANDING OF PRINCIPLE OF METHOD STUDY \n \n4. Ease in handling, the flow of components, simultaneous use of both hands are some factors that are used to compare between different types of methods to do a job.",
         true),
     Questions(
-        "5. Learning curve is a graphical representation of one’s performance in doing a job vs. the amount of learning efforts he/she has put in.",
+        "MEASUREMENT AND ANALYSIS OF ERGONOMICS VARIABLE(LEARNING CURVE). \n \n 5. Learning curve is a graphical representation of one’s performance in doing a job vs. the amount of learning efforts he/she has put in.",
         true),
     Questions(
-        "6. The learning curve always keeps on increasing exponentially with the increase in learning efforts.",
+        "MEASUREMENT AND ANALYSIS OF ERGONOMICS VARIABLE(LEARNING CURVE). \n \n 6. The learning curve always keeps on increasing exponentially with the increase in learning efforts.",
         false),
     Questions(
-        "7. Learning curve plateaus after a while and one’s performance never actually reaches 100% in a job.",
+        "MEASUREMENT AND ANALYSIS OF ERGONOMICS VARIABLE(LEARNING CURVE). \n \n 7. Learning curve plateaus after a while and one’s performance never actually reaches 100% in a job.",
         true),
     Questions(
-        "8. In a log-log graph of time required to do a job vs. number of times the job has been done, the slope is constant. This slope is known as the learning rate.",
+        "MEASUREMENT AND ANALYSIS OF ERGONOMICS VARIABLE(LEARNING CURVE). \n \n 8. In a log-log graph of time required to do a job vs. number of times the job has been done, the slope is constant. This slope is known as the learning rate.",
         true),
     Questions(
-        "9. Learning curve can be utilised in an industry to choose the best candidate for a new job; from a pool of candidates by looking at their learning abilities for another job which requires similar skill sets as the new one",
+        "MEASUREMENT AND ANALYSIS OF ERGONOMICS VARIABLE(LEARNING CURVE). \n \n 9. Learning curve can be utilised in an industry to choose the best candidate for a new job; from a pool of candidates by looking at their learning abilities for another job which requires similar skill sets as the new one",
         true),
     Questions(
-        "10. Hand-finger movement, muscle coordination, depth perception are examples of ergonomic variables discussed in this experiment.",
+        "MEASUREMENT AND ANALYSIS OF ERGONOMICS VARIABLE. \n \n 10. Hand-finger movement, muscle coordination, depth perception are examples of ergonomic variables discussed in this experiment.",
         true),
     Questions(
-        "11. Specific ergonomic variables related to a job can be measured of a person using this experiment to know if that person is suitable for the job.",
+        "MEASUREMENT AND ANALYSIS OF ERGONOMICS VARIABLE. \n \n 11. Specific ergonomic variables related to a job can be measured of a person using this experiment to know if that person is suitable for the job.",
         true),
     Questions(
-        "12. Eye fatigue is not an important metric to keep track of while conducting this experiment.",
+        "MEASUREMENT AND ANALYSIS OF ERGONOMICS VARIABLE. \n \n 12. Eye fatigue is not an important metric to keep track of while conducting this experiment.",
         false),
     Questions(
-        "13. Eye fatigue experienced while doing a job subject can be measured by a device known as ‘Eye fatigue device’.",
+        "MEASUREMENT AND ANALYSIS OF ERGONOMICS VARIABLE. \n \n 13. Eye fatigue experienced while doing a job subject can be measured by a device known as ‘Eye fatigue device’.",
         false),
     Questions(
-        "14. The plot of ‘Oxygen consumption rate’ vs. ‘Physical working capacity’ in a bicycle ergometer experiment is linear.",
+        "MEASUREMENT AND ANALYSIS OF WORK AND RECOVERY CYCLE FOR THE JOBS SIMULATED ON BICYCLE ERGOMETER AN TREADMILL. \n  \n 14. The plot of ‘Oxygen consumption rate’ vs. ‘Physical working capacity’ in a bicycle ergometer experiment is linear.",
         true),
     Questions(
-        "15. The objective of the Treadmill experiment is to measure and analyze the working capacity of the subjects on a treadmill.",
+        "MEASUREMENT AND ANALYSIS OF WORK AND RECOVERY CYCLE FOR THE JOBS SIMULATED ON BICYCLE ERGOMETER AN TREADMILL. \n  \n 15. The objective of the Treadmill experiment is to measure and analyze the working capacity of the subjects on a treadmill.",
         false),
     Questions(
-        "16. In the treadmill experiment, the subject runs at a speed that is higher than his/her comfort level.",
+        "MEASUREMENT AND ANALYSIS OF WORK AND RECOVERY CYCLE FOR THE JOBS SIMULATED ON BICYCLE ERGOMETER AN TREADMILL. \n  \n 16. In the treadmill experiment, the subject runs at a speed that is higher than his/her comfort level.",
         false),
     Questions(
-        "17. Principles of Bicycle ergometer experiment can be used in an industry to ensure that there is sufficient oxygen supply for the  workers depending on how physically intensive is the job.",
+        "MEASUREMENT AND ANALYSIS OF WORK AND RECOVERY CYCLE FOR THE JOBS SIMULATED ON BICYCLE ERGOMETER AN TREADMILL. \n  \n 17. Principles of Bicycle ergometer experiment can be used in an industry to ensure that there is sufficient oxygen supply for the  workers depending on how physically intensive is the job.",
         true),
     Questions(
-        "18. Principles of Treadmill experiment can be used by the management to design optimal working and break periods for the workers for a specific job.",
+        "MEASUREMENT AND ANALYSIS OF WORK AND RECOVERY CYCLE FOR THE JOBS SIMULATED ON BICYCLE ERGOMETER AN TREADMILL. \n  \n 18. Principles of Treadmill experiment can be used by the management to design optimal working and break periods for the workers for a specific job.",
         true),
     Questions(
-        "19. The objective of the ‘weightlifting task’ experiment is to determine the recommended weightlifting limit and lifting index for a job.",
+        "EXPERIMENT ON WEIGHT LIFTING TASK. \n  \n 19. The objective of the ‘weightlifting task’ experiment is to determine the recommended weightlifting limit and lifting index for a job.",
         true),
     Questions(
-        "20. Not setting proper weightlifting limits for a job and allowing workers to lift excessive loads can lead to only short-term injuries.",
+        "EXPERIMENT ON WEIGHT LIFTING TASK. \n  \n 20. Not setting proper weightlifting limits for a job and allowing workers to lift excessive loads can lead to only short-term injuries.",
         false),
     Questions(
-        "21. Lifting excessive weights in a job can not only lead to injuries and accidents but may also lead to workers getting tired quickly, therefore, reducing the optimality of the work system.",
+        "EXPERIMENT ON WEIGHT LIFTING TASK. \n  \n 21. Lifting excessive weights in a job can not only lead to injuries and accidents but may also lead to workers getting tired quickly, therefore, reducing the optimality of the work system.",
         true),
     Questions(
-        "22. The eye fatigue tester is used to measure the eye fatigue of a subject during a job. This metric is a good reflection of the mental exhaustion of the subject and is important for the weightlifting task experiment.",
+        "EXPERIMENT ON WEIGHT LIFTING TASK. \n  \n 22. The eye fatigue tester is used to measure the eye fatigue of a subject during a job. This metric is a good reflection of the mental exhaustion of the subject and is important for the weightlifting task experiment.",
         true),
     Questions(
-        "23. In the bell assembly experiment, a two-hand activity chart is made and is used to compare different methods of assembling a disassembled bell.",
+        "TIME STUDY OF ASSEMBLY AND MACHINING JOBS. \n  \n 23. In the bell assembly experiment, a two-hand activity chart is made and is used to compare different methods of assembling a disassembled bell.",
         true),
     Questions(
-        "24. Single-handed methods of bell assembly are usually much more optimal than two-handed methods as the subject has the ability to focus on one component at a time.",
+        "TIME STUDY OF ASSEMBLY AND MACHINING JOBS. \n  \n 24. Single-handed methods of bell assembly are usually much more optimal than two-handed methods as the subject has the ability to focus on one component at a time.",
         false),
     Questions(
-        "25. While assembling a bell, actions like twisting, turning, and fixing can be better performed when both hands are used.",
+        "TIME STUDY OF ASSEMBLY AND MACHINING JOBS. \n  \n 25. While assembling a bell, actions like twisting, turning, and fixing can be better performed when both hands are used.",
         true),
     Questions(
-        "26. An optimal bell assembly method may not be the one that is the fastest but a method that is optimal in consideration of factors like the complexity of the method and the amount of stress it puts on the subject.",
+        "TIME STUDY OF ASSEMBLY AND MACHINING JOBS. \n  \n 26. An optimal bell assembly method may not be the one that is the fastest but a method that is optimal in consideration of factors like the complexity of the method and the amount of stress it puts on the subject.",
         true),
     Questions(
-        "27. Studying the reflectivity of different types of equipment in an industry under different light conditions is not important to avoid accidents or injuries among the workers while doing the job.",
+        "LIGHTNING ARRANGMENT- VISIBILITY MEASUREMENT. \n  \n 27. Studying the reflectivity of different types of equipment in an industry under different light conditions is not important to avoid accidents or injuries among the workers while doing the job.",
         false),
     Questions(
-        "28. Applying principles of light illuminance experiment in an industrial setting allows the management to ensure proper lighting conditions so that workers’ efficiency can be optimised.",
+        "LIGHTNING ARRANGMENT- VISIBILITY MEASUREMENT. \n  \n 28. Applying principles of light illuminance experiment in an industrial setting allows the management to ensure proper lighting conditions so that workers’ efficiency can be optimised.",
         true),
     Questions(
-        "29.  Poor lighting conditions may lead to eye fatigue and unnecessary stress among the workers in an industrial setting.",
+        "LIGHTNING ARRANGMENT- VISIBILITY MEASUREMENT. \n  \n 29. Poor lighting conditions may lead to eye fatigue and unnecessary stress among the workers in an industrial setting.",
         true),
     Questions(
-        "30. Comparing illuminance of light at different angular positions is not important in the light illuminance experiment. Only illuminance of light normal to the surface of the material is of significance.",
+        "LIGHTNING ARRANGMENT- VISIBILITY MEASUREMENT. \n  \n 30. Comparing illuminance of light at different angular positions is not important in the light illuminance experiment. Only illuminance of light normal to the surface of the material is of significance.",
         false),
     Questions(
-        "31. The ‘rating film’ experiment is a time-motion study experiment.",
+        "RATING FILM EXERCISE. \n  \n 31. The ‘rating film’ experiment is a time-motion study experiment.",
         true),
     Questions(
-        "32. Higher the rating given to a worker in the rating film experiment, lower is his/her pace of doing the job.",
+        "RATING FILM EXERCISE. \n  \n 32. Higher the rating given to a worker in the rating film experiment, lower is his/her pace of doing the job.",
         false),
     Questions(
-        "33. Using the principles of the rating film experiment it can be ensured that workers with a job completion speed higher than a threshold can be identified so that this sub-system does not become a bottleneck.",
+        "RATING FILM EXERCISE. \n  \n 33. Using the principles of the rating film experiment it can be ensured that workers with a job completion speed higher than a threshold can be identified so that this sub-system does not become a bottleneck.",
         true),
     Questions(
-        "34. A viable system must have a fluid motion of all its soft elements (like human personnel). It should be practical and efficient.",
+        "RATING FILM EXERCISE. \n  \n 34. A viable system must have a fluid motion of all its soft elements (like human personnel). It should be practical and efficient.",
         true),
     Questions(
-        "35. One of the objectives of the anthropometry experiments is to study the variability in the body dimensions for several groups of people.",
+        "ANTHROPOMETRY. \n  \n 35. One of the objectives of the anthropometry experiments is to study the variability in the body dimensions for several groups of people.",
         true),
     Questions(
-        "36. While deciding the anthropometric metrics of a group, the normal range is usually taken as 1 - 99 percentile for males and females.",
+        "ANTHROPOMETRY. \n  \n 36. While deciding the anthropometric metrics of a group, the normal range is usually taken as 1 - 99 percentile for males and females.",
         false),
     Questions(
-        "37. Anthropometer is a tool used to measure the dimensions of different parts of a human body.",
+        "ANTHROPOMETRY. \n  \n 37. Anthropometer is a tool used to measure the dimensions of different parts of a human body.",
         true),
     Questions(
-        "38. Using anthropometric metrics to design chairs and tables for the workers is inconsequential to their work efficiency.",
+        "ANTHROPOMETRY. \n  \n 38. Using anthropometric metrics to design chairs and tables for the workers is inconsequential to their work efficiency.",
         false),
     Questions("results:", false),
   ];
