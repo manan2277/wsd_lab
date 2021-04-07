@@ -2146,7 +2146,7 @@ class _StartPageState extends State<StartPage> {
                       Color(0xFFFFFFF),
                       Colors.white
                     ])),
-                height: 300.0,
+                height: 150.0,
                 width: double.infinity,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -2171,11 +2171,7 @@ class _StartPageState extends State<StartPage> {
                   ],
                 ),
               ),
-<<<<<<< Updated upstream
               Padding(padding: EdgeInsets.only(top: 150,left: 30)),
-=======
-              Padding(padding: EdgeInsets.only(top: 80)),
->>>>>>> Stashed changes
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                // crossAxisAlignment: CrossAxisAlignment.end,
