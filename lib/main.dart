@@ -428,7 +428,7 @@ class Prelim extends StatelessWidget {
           ),
         ),
       ),
-     /* floatingActionButton: FloatingActionButton(
+      /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -547,7 +547,7 @@ class Measure extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-             // new Image.asset('Images/i2e2.jpg', width: 100, height: 100),
+              // new Image.asset('Images/i2e2.jpg', width: 100, height: 100),
               new Image.asset('Images/i3e2.jpg', width: 500, height: 300),
               new Text(
                 "\nData:\n",
@@ -588,7 +588,7 @@ class Measure extends StatelessWidget {
                 ),
               ),
               new Image.asset('Images/i7e2.jpg', width: 50, height: 50),
-             /* new Text(
+              /* new Text(
                 "\nDiscussion:\n",
                 style: TextStyle(
                   fontSize: 20,
@@ -704,223 +704,258 @@ class Measure extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-                new Text(
+              new Text(
                 "Objectives:\n​",
-    style: TextStyle(
-    fontSize: 20,
-    color: Colors.indigo,
-    ),),
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.indigo,
+                ),
+              ),
               new Text(
                 "1. To measure the speed of a subjects hand and finger movement (efficiency).​\n2. To test the movement and muscular coordination of the body of the subject.​\n3. To measure the learning rate of the subject. \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Equipment Required:​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "Cord Binding Experiment board, Cord, Stop Watch, Recording Sheets, Eye fatigue tester.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Operation: ​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "1. Eye Fatigue test is recorded before the experiment.\n2. The operation of cord binding is done in sequence.​\n3. Time taken to complete the binding is recorded.​\n4. The experiment is repeated 2 to 3 times for 30 cycle.​\n5. The eye fatigue test is tested after the experiment.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Diagram: ​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Image.asset('Images/i12e2.png', width: 500, height: 200),
               new Text(
                 "\nData: ​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Image.asset('Images/i13e2.png', width: 800, height: 300),
               new Text(
                 "\n\nStudy of Coordination tester​\n​",
                 style: TextStyle(
                   fontSize: 25,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "Objectives\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "1. To measure eye-hand coordination of a subject required for a specific job (small cycle)​\n2. To test  the change in eye fatigue level due to this coordination.​\n3. To  measure, the learning rate of the subject for this job.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Experimental Procedure:  \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "1.The setup consist of compound slides mechanism with slides in two axis moved with a screw rod.​\n2. A paper is attached on the top of the slides and a stationary pencil is made to touch the map. Movement of map is efficient through screw rods and pencil mark the movement on the map.​\n3. Repeat the experimental procedures.​\n4. Tabulate the data.\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Operation: \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "1. Check the eye fatigue of operative and record.\n2. Make the operative to perform the cord binding in sequence.​\n3. Record time taken to complete the binding.​\n4. Repeat the experiments for 30 cycles.​\n5. Check eye fatigue of operative and record.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Diagram: \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Image.asset('Images/i14e2.png', width: 500, height: 300),
               new Text(
                 "\nData: \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Image.asset('Images/i15e2.png', width: 800, height: 200),
               new Text(
                 "\n\nStudy of Depth Perception Meter​ \n​",
                 style: TextStyle(
                   fontSize: 25,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "Objectives: \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "1. To measure depth perception of a subject with respect to specified arrangements.​\n2. To assess the  depth perception of the subject.​\n3. To measure the learning rate of the subject for this job.​ \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Measuring Instruments: \n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "Digital Flicker Visual Fatigue tester, Depth Measuring scale in perception tester.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Operation:\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "1. The subject should be at specific position and adjust the chin rest to bring the eyes of subject to about same position as deep hole of tester.​\n2. The power should be switch on and let subject hold the grip button of the reaction signal cord. \n3. The speed selection switch should be set at 25 mm/sec. The direction lever should be moved from left to right position.​\n4. The other person will move the direction indicator lever to the direction of the mean position.​\n5. When the mean position is reached then activates the reaction button.​\n6. The deviation from the mean position is measured on the measuring scale of tester.​\n7. Repeat the process for 30 more cycles.",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "\nDiagram:\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Image.asset('Images/i16e2.png', width: 500, height: 300),
               new Text(
                 "Data:\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Image.asset('Images/i17e2.png', width: 800, height: 300),
               new Text(
                 "\n\nBolt Stand​\n​",
                 style: TextStyle(
                   fontSize: 25,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "Objectives​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "1. To measure the speed of the subject hand and finger movement( Efficiency)​\n2. To Test the movement and muscular coordination of the body of the subject.​\n3. To measure the learning rate of the subject.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Equipments Required:\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "Bolt, Bolt Stand, Stop Watch, Fatique Tester​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Operation:\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Text(
                 "1.  The visual fatigue test is recorded in the start of experiment.​\n2. Time taken to make the assembly bolt is recorded.​\n3. The experiment is repeated for 15 times.​\n4. The visual fatigue test is recorded at the end of experiment.​\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.blue,
-                ),),
+                ),
+              ),
               new Text(
                 "Diagram:\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Image.asset('Images/i18e2.png', width: 500, height: 300),
               new Text(
                 "Data:\n​",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.indigo,
-                ),),
+                ),
+              ),
               new Image.asset('Images/i19e2.png', width: 800, height: 300),
               new Text(
                 "\nDiscussion:\n",
@@ -966,12 +1001,11 @@ class Measure extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-
             ],
           ),
         ),
       ),
-     /* floatingActionButton: FloatingActionButton(
+      /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1143,13 +1177,13 @@ class Recovery extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-        new Text(
-          "1. An inclination and a resistance level is selected.\n2. The resting heart rate (RHR) is measured using stethoscope.​\n3.The belt is mounted and start running at a particular speed at which you feel comfortable. Speed meter shows the running speed in km/hr or mph.​\n4. After each minute of running, working heart rate (WHR) in beats per minute is measured. ​\n5. The running is continued for 5 minutes at almost the same speed.​\n6. WHR readings are to be taken. At the end of 5 minutes, discontinue the exercise, and start taking rest (no work) by sitting on a cushioned chair. \n7. RHR is to be recorded at the end of each minute till the time you get back your RHR at the beginning of the exercise.​\n8. The steps  are repeated1-6 for another exercise of 5-minute duration run at a different speed.\n",
-          style: TextStyle(
-            fontSize: 20,
-            color: Colors.blue,
-          ),
-        ),
+              new Text(
+                "1. An inclination and a resistance level is selected.\n2. The resting heart rate (RHR) is measured using stethoscope.​\n3.The belt is mounted and start running at a particular speed at which you feel comfortable. Speed meter shows the running speed in km/hr or mph.​\n4. After each minute of running, working heart rate (WHR) in beats per minute is measured. ​\n5. The running is continued for 5 minutes at almost the same speed.​\n6. WHR readings are to be taken. At the end of 5 minutes, discontinue the exercise, and start taking rest (no work) by sitting on a cushioned chair. \n7. RHR is to be recorded at the end of each minute till the time you get back your RHR at the beginning of the exercise.​\n8. The steps  are repeated1-6 for another exercise of 5-minute duration run at a different speed.\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
               new Text(
                 "Diagram\n",
                 style: TextStyle(
@@ -1171,15 +1205,22 @@ class Recovery extends StatelessWidget {
               new Text(
                 "\nDiscussion:\n",
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 25,
                   color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "\nAerobic component imples the oxygen content required by the subject to perform the given task. Aerobic component is necessary to be considered when calculating the physical working capacity beacause this helps us in calculating how much can a subject exert themself in a physically demanding task without any damage to their health and body because we are taking into consideration how welll their lungs function. Thus, we can calculate the average physical capacity of various people better if we take their lung capabilities into consideration, which is aerobic component.\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
                 ),
               ),
             ],
           ),
         ),
       ),
-     /* floatingActionButton: FloatingActionButton(
+      /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1303,11 +1344,36 @@ class Weight extends StatelessWidget {
 
               new Image.asset('Images/i6e4.jpg', width: 800, height: 400),
               new Image.asset('Images/i7e4.jpg', width: 800, height: 300),
+              new Text(
+                "\nDiscussion:\n",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.indigo,
+                ),
+              ),
+              new Text(
+                "\nIn industries it is very important to take care of various jobs and most of them are physically demanding. The employees who are being assigned these physcially demanding tasks should not have any risk of damagind his/her health and any kind of materialistic damage to equipments and the working environment. The weight lifting experiments helps us in setting a weight limit to set a thresholdd weight lifting level according to which we can select the employees and assign the weight lifting work corresponding to his/her capabilities. Setting up a weight limit facilitates us to assign workers in an optimal manner and get optimum output. We take care of the fact that each worker should be assigned to only that much weight which does not demand so much physcial exertion.\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "\n If the analysis over subject limit is neglected and people are randomly allocated, then there can be potential damage to the worker's health and to the factory as labours wont be able to produce optimal output.\n The damage to the labour will cost the labour his or her health and well being and since most of the industries have health incentives for labours working in the factory, they would have increased spending on labours health incenctives, both of these combined would also decrease the efficiency and output of the factory. There will be a mental pressure over the labours and they might feel demotivated to continue to work due to increased amount of negative stress.\n",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.blue,
+                ),
+              ),
+              new Text(
+                "\n Physcial fatigue test: This is to test the physical threshold of a subject and to test how easily a subject gets tired. If the subject gets tired easily then the RWL might also be too high for him/her.\n\n Eye fatigue test: This is to check the eye fatigue or how easily the subject's eyes get fatigued. Since in a industry a subject has to work with hand-eye coordination, all the physical work needs eye coordintation too. If the subject' eyes get tired easily then he/ she is very likely to make some error and at times can lead to accident causing health issues and collateral damage.",
+                style: TextStyle(fontSize: 20, color: Colors.blue),
+              ),
             ],
           ),
         ),
       ),
-     /* floatingActionButton: FloatingActionButton(
+      /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1339,153 +1405,169 @@ class Time extends StatelessWidget {
         //centerTitle: true,
         backgroundColor: Colors.indigo,
       ),
-    body: Container(
-    child: SingleChildScrollView(
-    child: Column(
-    mainAxisAlignment: MainAxisAlignment.start,
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: <Widget>[
-      new Text(
-        "\nAssembly of  Bolt and Nuts\n",
-        style: TextStyle(
-          fontSize: 25,
-          color: Colors.indigo,
+      body: Container(
+        child: SingleChildScrollView(
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Text(
+                  "\nAssembly of  Bolt and Nuts\n",
+                  style: TextStyle(
+                    fontSize: 25,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Text(
+                  "Objectives:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Text(
+                  "To perform a method study on the assembly of a nuts and bolts as an individual and as a batch. Hence understand the working of individual assembly and batch assembly of jobs. ​\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.blue,
+                  ),
+                ),
+                new Text(
+                  "Materials required:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Text(
+                  "Nuts and Bolts, Spanner and Plates, Washers\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.blue,
+                  ),
+                ),
+                new Text(
+                  "Operation:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Text(
+                  "1. The dismantled nut and bolt assembly is placed over the given workplace and prepare a rough sketch of the components and the layout of the assembly.​\n2. The given nuts and bolts are assembled using the sample assembly as an individual.​\n3. The time consumed for each operation is noted down.​\n4. The Cumulative time consumed for the whole assembly need to find out.​\n5. The procedure is repeated as batch production in a group considering each member to be in charge of a workstation.​\n6. The time consumed at each work station is find out and hence find the cumulative time.​\n7. The procedure is performed for various arrangements with sketch and record the time of each of two trials for each member.",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.blue,
+                  ),
+                ),
+                new Text(
+                  "\nDiagram:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Image.asset('Images/i1e5.png', width: 800, height: 400),
+                new Text(
+                  "Data:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Image.asset('Images/i2e5.png', width: 800, height: 400),
+                new Text(
+                  "\nAssembly of a bell \n",
+                  style: TextStyle(
+                    fontSize: 25,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Text(
+                  "Objective:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Text(
+                  "To perform a method and time study on the assembly of bell and hence construct a two hand activity chart.​\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.blue,
+                  ),
+                ),
+                new Text(
+                  "Materials required:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Text(
+                  "Bell assembly, Screw driver, Spanners (of apt size), Pencil, Paper​\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.blue,
+                  ),
+                ),
+                new Text(
+                  "Operation:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Text(
+                  "1. The bell assembly is disassembled.\n2. The dismantled parts of the bell are assembled in a particular way over the workplace.​\n3. A rough sketch of the workplace and the Arrangement of the dismantled parts of the bell (a top view of the arrangement is preferable) are drawn.\n4. Assemble the parts in a sequence as shown in the picture and record the time of each operation.​\n5. The operation for different arrangements is repeated for five times and consequently prepare a sketch for the same.​\n6. The best method for the assembly of bell is accessed.​",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.blue,
+                  ),
+                ),
+                new Text(
+                  "\nDiagram:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Image.asset('Images/i3e5.png', width: 800, height: 400),
+                new Text(
+                  "Data:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Image.asset('Images/i4e5.png', width: 800, height: 400),
+                new Image.asset('Images/i5e5.png', width: 800, height: 400),
+                new Text(
+                  "\nResults:\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Image.asset('Images/i6e5.png', width: 800, height: 400),
+                new Text(
+                  "\nDiscussion:\n",
+                  style: TextStyle(
+                    fontSize: 25,
+                    color: Colors.indigo,
+                  ),
+                ),
+                new Text(
+                  "\nUnderstanding the assembly of parts has real life impact while working in the industry. We perform the experiment and from the data we understand the best method, like the fastest and efficinet method. While setting up an industry and hirirng employees for manual work is an important analysis to do.\n",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.blue,
+                  ),
+                ),
+              ]),
         ),
       ),
-      new Text(
-        "Objectives:\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.indigo,
-        ),
-      ),
-      new Text(
-        "To perform a method study on the assembly of a nuts and bolts as an individual and as a batch. Hence understand the working of individual assembly and batch assembly of jobs. ​\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.blue,
-        ),
-      ),
-      new Text(
-        "Materials required:\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.indigo,
-        ),
-      ),
-      new Text(
-        "Nuts and Bolts, Spanner and Plates, Washers\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.blue,
-        ),
-      ),
-      new Text(
-        "Operation:\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.indigo,
-        ),
-      ),
-      new Text(
-        "1. The dismantled nut and bolt assembly is placed over the given workplace and prepare a rough sketch of the components and the layout of the assembly.​\n2. The given nuts and bolts are assembled using the sample assembly as an individual.​\n3. The time consumed for each operation is noted down.​\n4. The Cumulative time consumed for the whole assembly need to find out.​\n5. The procedure is repeated as batch production in a group considering each member to be in charge of a workstation.​\n6. The time consumed at each work station is find out and hence find the cumulative time.​\n7. The procedure is performed for various arrangements with sketch and record the time of each of two trials for each member.",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.blue,
-        ),
-      ),
-      new Text(
-        "\nDiagram:\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.indigo,
-        ),
-      ),
-      new Image.asset('Images/i1e5.png', width: 800, height: 400),
-      new Text(
-        "Data:\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.indigo,
-        ),
-      ),
-      new Image.asset('Images/i2e5.png', width: 800, height: 400),
-      new Text(
-        "\nAssembly of a bell \n",
-        style: TextStyle(
-          fontSize: 25,
-          color: Colors.indigo,
-        ),
-      ),
-      new Text(
-        "Objective:\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.indigo,
-        ),
-      ),
-      new Text(
-        "To perform a method and time study on the assembly of bell and hence construct a two hand activity chart.​\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.blue,
-        ),
-      ),
-      new Text(
-        "Materials required:\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.indigo,
-        ),
-      ),
-      new Text(
-        "Bell assembly, Screw driver, Spanners (of apt size), Pencil, Paper​\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.blue,
-        ),
-      ),
-      new Text(
-        "Operation:\n",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.indigo,
-        ),
-      ),
-      new Text("1. The bell assembly is disassembled.\n2. The dismantled parts of the bell are assembled in a particular way over the workplace.​\n3. A rough sketch of the workplace and the Arrangement of the dismantled parts of the bell (a top view of the arrangement is preferable) are drawn.\n4. Assemble the parts in a sequence as shown in the picture and record the time of each operation.​\n5. The operation for different arrangements is repeated for five times and consequently prepare a sketch for the same.​\n6. The best method for the assembly of bell is accessed.​",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.blue,
-        ),
-      ),
-        new Text(
-          "\nDiagram:\n",
-          style: TextStyle(
-            fontSize: 20,
-            color: Colors.indigo,
-          ),
-        ),
-        new Image.asset('Images/i3e5.png', width: 800, height: 400),
-        new Text(
-          "Data:\n",
-          style: TextStyle(
-            fontSize: 20,
-            color: Colors.indigo,
-          ),
-        ),
-        new Image.asset('Images/i4e5.png', width: 800, height: 400),
-        new Image.asset('Images/i5e5.png', width: 800, height: 400),
-        new Text(
-          "\nResults:\n",
-          style: TextStyle(
-            fontSize: 20,
-            color: Colors.indigo,
-          ),
-        ),
-        new Image.asset('Images/i6e5.png', width: 800, height: 400),
-    ]
-    ),),),
-     /* floatingActionButton: FloatingActionButton(
+      /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1705,7 +1787,7 @@ class Rating extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
-             /* new Image.asset('Images/i5e8.jpg', width: 1000, height: 500),
+              /* new Image.asset('Images/i5e8.jpg', width: 1000, height: 500),
               new Image.asset('Images/i6e8.jpg', width: 1000, height: 500),
               new Image.asset('Images/i7e8.jpg', width: 1000, height: 500),
               new Image.asset('Images/i8e8.jpg', width: 1000, height: 500),*/
@@ -1736,7 +1818,7 @@ class Rating extends StatelessWidget {
           ),
         ),
       ),
-     /* floatingActionButton: FloatingActionButton(
+      /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1768,7 +1850,7 @@ class Bell extends StatelessWidget {
         //centerTitle: true,
         backgroundColor: Colors.indigo,
       ),
-     /* floatingActionButton: FloatingActionButton(
+      /* floatingActionButton: FloatingActionButton(
         child: Text(
           "Back",
           style: TextStyle(
@@ -1923,121 +2005,120 @@ class _StartPageState extends State<StartPage> {
 
   List qList = [
     Questions(
-        "1. A job is carried out via multiple methods and a comparison is drawn between these methods to find out the optimal method of doing the job.", true
-        ),
+        "1. A job is carried out via multiple methods and a comparison is drawn between these methods to find out the optimal method of doing the job.",
+        true),
     Questions(
-        "2. A method is determined as optimal for a job only if it takes the least time to complete and does not depend on any other factors.", false
-        ),
+        "2. A method is determined as optimal for a job only if it takes the least time to complete and does not depend on any other factors.",
+        false),
     Questions(
-        "3. In an industrial setting we can determine the optimal method to do a job from a pool of methods, by using the principles learned in this experiment.", true
-        ),
+        "3. In an industrial setting we can determine the optimal method to do a job from a pool of methods, by using the principles learned in this experiment.",
+        true),
     Questions(
-        "4. Ease in handling, the flow of components, simultaneous use of both hands are some factors that are used to compare between different types of methods to do a job.", true
-        ),
+        "4. Ease in handling, the flow of components, simultaneous use of both hands are some factors that are used to compare between different types of methods to do a job.",
+        true),
     Questions(
-        "5. Learning curve is a graphical representation of one’s performance in doing a job vs. the amount of learning efforts he/she has put in.", true
-        ),
+        "5. Learning curve is a graphical representation of one’s performance in doing a job vs. the amount of learning efforts he/she has put in.",
+        true),
     Questions(
-        "6. The learning curve always keeps on increasing exponentially with the increase in learning efforts.", false
-        ),
+        "6. The learning curve always keeps on increasing exponentially with the increase in learning efforts.",
+        false),
     Questions(
-        "7. Learning curve plateaus after a while and one’s performance never actually reaches 100% in a job.", true
-        ),
+        "7. Learning curve plateaus after a while and one’s performance never actually reaches 100% in a job.",
+        true),
     Questions(
-        "8. In a log-log graph of time required to do a job vs. number of times the job has been done, the slope is constant. This slope is known as the learning rate.", true
-        ),
+        "8. In a log-log graph of time required to do a job vs. number of times the job has been done, the slope is constant. This slope is known as the learning rate.",
+        true),
     Questions(
-        "9. Learning curve can be utilised in an industry to choose the best candidate for a new job; from a pool of candidates by looking at their learning abilities for another job which requires similar skill sets as the new one", true
-        ),
+        "9. Learning curve can be utilised in an industry to choose the best candidate for a new job; from a pool of candidates by looking at their learning abilities for another job which requires similar skill sets as the new one",
+        true),
     Questions(
-        "10. Hand-finger movement, muscle coordination, depth perception are examples of ergonomic variables discussed in this experiment.", true
-        ),
-      Questions(
-        "11. Specific ergonomic variables related to a job can be measured of a person using this experiment to know if that person is suitable for the job.", true
-        ),
+        "10. Hand-finger movement, muscle coordination, depth perception are examples of ergonomic variables discussed in this experiment.",
+        true),
     Questions(
-        "12. Eye fatigue is not an important metric to keep track of while conducting this experiment.", false
-        ),
+        "11. Specific ergonomic variables related to a job can be measured of a person using this experiment to know if that person is suitable for the job.",
+        true),
     Questions(
-        "13. Eye fatigue experienced while doing a job subject can be measured by a device known as ‘Eye fatigue device’.", false
-        ),
+        "12. Eye fatigue is not an important metric to keep track of while conducting this experiment.",
+        false),
     Questions(
-        "14. The plot of ‘Oxygen consumption rate’ vs. ‘Physical working capacity’ in a bicycle ergometer experiment is linear.", true
-        ),
+        "13. Eye fatigue experienced while doing a job subject can be measured by a device known as ‘Eye fatigue device’.",
+        false),
     Questions(
-        "15. The objective of the Treadmill experiment is to measure and analyze the working capacity of the subjects on a treadmill.", false
-        ),
+        "14. The plot of ‘Oxygen consumption rate’ vs. ‘Physical working capacity’ in a bicycle ergometer experiment is linear.",
+        true),
     Questions(
-        "16. In the treadmill experiment, the subject runs at a speed that is higher than his/her comfort level.", false
-        ),
+        "15. The objective of the Treadmill experiment is to measure and analyze the working capacity of the subjects on a treadmill.",
+        false),
     Questions(
-        "17. Principles of Bicycle ergometer experiment can be used in an industry to ensure that there is sufficient oxygen supply for the  workers depending on how physically intensive is the job.", true
-        ),
+        "16. In the treadmill experiment, the subject runs at a speed that is higher than his/her comfort level.",
+        false),
     Questions(
-        "18. Principles of Treadmill experiment can be used by the management to design optimal working and break periods for the workers for a specific job.", true
-        ),
+        "17. Principles of Bicycle ergometer experiment can be used in an industry to ensure that there is sufficient oxygen supply for the  workers depending on how physically intensive is the job.",
+        true),
     Questions(
-        "19. The objective of the ‘weightlifting task’ experiment is to determine the recommended weightlifting limit and lifting index for a job.", true
-        ),
+        "18. Principles of Treadmill experiment can be used by the management to design optimal working and break periods for the workers for a specific job.",
+        true),
     Questions(
-        "20. Not setting proper weightlifting limits for a job and allowing workers to lift excessive loads can lead to only short-term injuries.", false
-        ),
+        "19. The objective of the ‘weightlifting task’ experiment is to determine the recommended weightlifting limit and lifting index for a job.",
+        true),
     Questions(
-        "21. Lifting excessive weights in a job can not only lead to injuries and accidents but may also lead to workers getting tired quickly, therefore, reducing the optimality of the work system.", true
-        ),
+        "20. Not setting proper weightlifting limits for a job and allowing workers to lift excessive loads can lead to only short-term injuries.",
+        false),
     Questions(
-        "22. The eye fatigue tester is used to measure the eye fatigue of a subject during a job. This metric is a good reflection of the mental exhaustion of the subject and is important for the weightlifting task experiment.", true
-        ),
+        "21. Lifting excessive weights in a job can not only lead to injuries and accidents but may also lead to workers getting tired quickly, therefore, reducing the optimality of the work system.",
+        true),
     Questions(
-        "23. In the bell assembly experiment, a two-hand activity chart is made and is used to compare different methods of assembling a disassembled bell.", true
-        ),
+        "22. The eye fatigue tester is used to measure the eye fatigue of a subject during a job. This metric is a good reflection of the mental exhaustion of the subject and is important for the weightlifting task experiment.",
+        true),
     Questions(
-        "24. Single-handed methods of bell assembly are usually much more optimal than two-handed methods as the subject has the ability to focus on one component at a time.", false
-        ),
+        "23. In the bell assembly experiment, a two-hand activity chart is made and is used to compare different methods of assembling a disassembled bell.",
+        true),
     Questions(
-        "25. While assembling a bell, actions like twisting, turning, and fixing can be better performed when both hands are used.", true
-        ),
+        "24. Single-handed methods of bell assembly are usually much more optimal than two-handed methods as the subject has the ability to focus on one component at a time.",
+        false),
     Questions(
-        "26. An optimal bell assembly method may not be the one that is the fastest but a method that is optimal in consideration of factors like the complexity of the method and the amount of stress it puts on the subject.", true
-        ),
+        "25. While assembling a bell, actions like twisting, turning, and fixing can be better performed when both hands are used.",
+        true),
     Questions(
-        "27. Studying the reflectivity of different types of equipment in an industry under different light conditions is not important to avoid accidents or injuries among the workers while doing the job.", false
-        ),
+        "26. An optimal bell assembly method may not be the one that is the fastest but a method that is optimal in consideration of factors like the complexity of the method and the amount of stress it puts on the subject.",
+        true),
     Questions(
-        "28. Applying principles of light illuminance experiment in an industrial setting allows the management to ensure proper lighting conditions so that workers’ efficiency can be optimised.", true
-        ),
+        "27. Studying the reflectivity of different types of equipment in an industry under different light conditions is not important to avoid accidents or injuries among the workers while doing the job.",
+        false),
     Questions(
-        "29.  Poor lighting conditions may lead to eye fatigue and unnecessary stress among the workers in an industrial setting.", true
-        ),
+        "28. Applying principles of light illuminance experiment in an industrial setting allows the management to ensure proper lighting conditions so that workers’ efficiency can be optimised.",
+        true),
     Questions(
-        "30. Comparing illuminance of light at different angular positions is not important in the light illuminance experiment. Only illuminance of light normal to the surface of the material is of significance.", false
-        ),
+        "29.  Poor lighting conditions may lead to eye fatigue and unnecessary stress among the workers in an industrial setting.",
+        true),
     Questions(
-        "31. The ‘rating film’ experiment is a time-motion study experiment.", true
-        ),
+        "30. Comparing illuminance of light at different angular positions is not important in the light illuminance experiment. Only illuminance of light normal to the surface of the material is of significance.",
+        false),
     Questions(
-        "32. Higher the rating given to a worker in the rating film experiment, lower is his/her pace of doing the job.", false
-        ),
+        "31. The ‘rating film’ experiment is a time-motion study experiment.",
+        true),
     Questions(
-        "33. Using the principles of the rating film experiment it can be ensured that workers with a job completion speed higher than a threshold can be identified so that this sub-system does not become a bottleneck.", true
-        ),
+        "32. Higher the rating given to a worker in the rating film experiment, lower is his/her pace of doing the job.",
+        false),
     Questions(
-        "34. A viable system must have a fluid motion of all its soft elements (like human personnel). It should be practical and efficient.", true
-        ),
+        "33. Using the principles of the rating film experiment it can be ensured that workers with a job completion speed higher than a threshold can be identified so that this sub-system does not become a bottleneck.",
+        true),
     Questions(
-        "35. One of the objectives of the anthropometry experiments is to study the variability in the body dimensions for several groups of people.", true
-        ),
+        "34. A viable system must have a fluid motion of all its soft elements (like human personnel). It should be practical and efficient.",
+        true),
     Questions(
-        "36. While deciding the anthropometric metrics of a group, the normal range is usually taken as 1 - 99 percentile for males and females.", false
-        ),
+        "35. One of the objectives of the anthropometry experiments is to study the variability in the body dimensions for several groups of people.",
+        true),
     Questions(
-        "37. Anthropometer is a tool used to measure the dimensions of different parts of a human body.", true
-        ),
+        "36. While deciding the anthropometric metrics of a group, the normal range is usually taken as 1 - 99 percentile for males and females.",
+        false),
     Questions(
-        "38. Using anthropometric metrics to design chairs and tables for the workers is inconsequential to their work efficiency.", false
-        ),
-    Questions("results:",false),
-
+        "37. Anthropometer is a tool used to measure the dimensions of different parts of a human body.",
+        true),
+    Questions(
+        "38. Using anthropometric metrics to design chairs and tables for the workers is inconsequential to their work efficiency.",
+        false),
+    Questions("results:", false),
   ];
 
   var score = 0;
@@ -2053,11 +2134,13 @@ class _StartPageState extends State<StartPage> {
       final snackbar = SnackBar(
         duration: Duration(milliseconds: 1000),
         backgroundColor: Colors.blue,
-        content: Text("Correct! Well done",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.white,
-        ),),
+        content: Text(
+          "Correct! Well done",
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.white,
+          ),
+        ),
       );
       Scaffold.of(context).showSnackBar(snackbar);
     } else {
@@ -2067,11 +2150,13 @@ class _StartPageState extends State<StartPage> {
       final snackbar = SnackBar(
         duration: Duration(milliseconds: 1000),
         backgroundColor: Colors.indigo,
-        content: Text("Incorrect! Better luck next time",
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.white,
-        ),),
+        content: Text(
+          "Incorrect! Better luck next time",
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.white,
+          ),
+        ),
       );
       Scaffold.of(context).showSnackBar(snackbar);
     }
@@ -2098,15 +2183,13 @@ class _StartPageState extends State<StartPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-
               //Padding(padding: EdgeInsets.only(top: 30)),
               Container(
                 decoration: BoxDecoration(
                     gradient: LinearGradient(
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
-
-                       colors: [
+                        colors: [
                       Color(0xFFFFFFF),
                       Color(0xFFFFFFF),
                     ])),
@@ -2116,19 +2199,19 @@ class _StartPageState extends State<StartPage> {
                     Text(
                       "\nScore : $score /76",
                       style: TextStyle(
-                          color: Colors.indigo,
-                          fontSize: 20,
-                         // fontWeight: FontWeight.bold
+                        color: Colors.indigo,
+                        fontSize: 20,
+                        // fontWeight: FontWeight.bold
                       ),
                     ),
                     InkWell(
                       child: Text(
                         "\nReset Quiz",
                         style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.indigo,
-                            //fontWeight: FontWeight.bold
-                          ),
+                          fontSize: 18,
+                          color: Colors.indigo,
+                          //fontWeight: FontWeight.bold
+                        ),
                       ),
                       onTap: reset,
                     )
@@ -2154,7 +2237,7 @@ class _StartPageState extends State<StartPage> {
                     FlatButton(
                       onPressed: () => {},
                       padding: EdgeInsets.fromLTRB(50.0, 50.0, 50.0, 50.0),
-                     // padding: EdgeInsets.fromLTRB(left, top, right, bottom),
+                      // padding: EdgeInsets.fromLTRB(left, top, right, bottom),
                       child: Text(qList[counter].qText,
                           style: TextStyle(
                             fontSize: 20.0,
@@ -2171,10 +2254,10 @@ class _StartPageState extends State<StartPage> {
                   ],
                 ),
               ),
-              Padding(padding: EdgeInsets.only(top: 80,left: 30)),
+              Padding(padding: EdgeInsets.only(top: 80, left: 30)),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-               // crossAxisAlignment: CrossAxisAlignment.end,
+                // crossAxisAlignment: CrossAxisAlignment.end,
                 children: <Widget>[
                   FlatButton(
                     onPressed: () => checkWin(true, context),
