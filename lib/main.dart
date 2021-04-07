@@ -2146,7 +2146,7 @@ class _StartPageState extends State<StartPage> {
                       Color(0xFFFFFFF),
                       Colors.white
                     ])),
-                height: 150.0,
+                height: 300.0,
                 width: double.infinity,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -2171,7 +2171,7 @@ class _StartPageState extends State<StartPage> {
                   ],
                 ),
               ),
-              Padding(padding: EdgeInsets.only(top: 150,left: 30)),
+              Padding(padding: EdgeInsets.only(top: 80,left: 30)),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                // crossAxisAlignment: CrossAxisAlignment.end,
