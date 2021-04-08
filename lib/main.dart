@@ -130,19 +130,7 @@ class SubPage extends StatelessWidget {
               ),
               color: Colors.white,
             ),
-            FlatButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Bell()),
-                );
-              },
-              child: Text(
-                "Bell Assembly Experiment",
-                style: TextStyle(fontSize: 20, color: Colors.blue),
-              ),
-              color: Colors.white,
-            ),
+
             FlatButton(
               onPressed: () {
                 Navigator.push(
@@ -2122,6 +2110,7 @@ class _StartPageState extends State<StartPage> {
     Questions(
         "ANTHROPOMETRY. \n  \n 38. Using anthropometric metrics to design chairs and tables for the workers is inconsequential to their work efficiency.",
         false),
+    Questions("END OF QUIZ \n \n Go back to main page by pressing the back button.",true)
 
   ];
 
