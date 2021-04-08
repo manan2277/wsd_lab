@@ -2118,7 +2118,7 @@ class _StartPageState extends State<StartPage> {
     Questions(
         "ANTHROPOMETRY. \n  \n 38. Using anthropometric metrics to design chairs and tables for the workers is inconsequential to their work efficiency.",
         false),
-    Questions("results:", false),
+
   ];
 
   var score = 0;
@@ -2161,7 +2161,7 @@ class _StartPageState extends State<StartPage> {
       Scaffold.of(context).showSnackBar(snackbar);
     }
     setState(() {
-      if (counter <= 37) {
+      if (counter <= 36) {
         counter = counter + 1;
       }
       else{
@@ -2233,7 +2233,7 @@ class _StartPageState extends State<StartPage> {
                       Color(0xFFFFFFF),
                       Colors.white
                     ])),
-                height: 300.0,
+                height: 400.0,
                 width: double.infinity,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -2258,7 +2258,7 @@ class _StartPageState extends State<StartPage> {
                   ],
                 ),
               ),
-              Padding(padding: EdgeInsets.only(top: 80, left: 30)),
+              Padding(padding: EdgeInsets.only(top: 100, left: 30)),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 // crossAxisAlignment: CrossAxisAlignment.end,
