@@ -2154,7 +2154,7 @@ class _StartPageState extends State<StartPage> {
       Scaffold.of(context).showSnackBar(snackbar);
     }
     setState(() {
-      if (counter <= 36) {
+      if (counter <= 37) {
         counter = counter + 1;
       }
       else{
